@@ -1,0 +1,9 @@
+title: Sid - Integration & Solution Architect
+description: Personal portfolio site for Sid
+url: https://sid-inthub.github.io
+baseurl: ""
+markdown: kramdown
+remote_theme: pages-themes/minimal@v0.2.0
+plugins:
+  - jekyll-remote-theme
+  - jekyll-seo-tag
