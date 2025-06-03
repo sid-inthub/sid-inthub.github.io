@@ -8,3 +8,4 @@ _site/
 vendor/
 # MacOS
 .DS_Store
+local_only/

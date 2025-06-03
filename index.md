@@ -4,11 +4,11 @@ title: Sid - Integration & Solution Architect
 ---
 
 <div class="profile-section">
-  <img src="./assets/images/profile-placeholder.jpg" alt="Sid" class="profile-image">
+  <img src="./assets/images/sid-linked.jpg" alt="Sid" class="profile-image">
   <h1 class="profile-title">Sid</h1>
-  <h2 class="profile-subtitle">Integration & Solution Architect</h2>
+  <h2 class="profile-subtitle">Bridge business needs with technical execution | System Integration | API | EDA</h2>
   <p class="profile-description">
-    Results-driven Integration & Solution Architect with 20+ years of experience designing, developing, and leading large-scale integration initiatives. My expertise spans SOA, ESB, micro-services, event-driven architectures, and API-led connectivity, with a proven ability to bridge business objectives with technical execution across industries, including R&D teams.
+    Results-driven professional with over 20 years of expertise in development, design, and architecture, specializing in Integration and Solution Architecture. Proficient in Application and System Integration for functional and technical projects, with extensive experience in SOA, ESB, microservices, event-driven, and API-driven designs. Demonstrated success in leading large-scale integration projects across diverse domains. Proven ability to bridge business needs with technical execution, highly skilled at stakeholder engagement, vendor coordination, and driving technical collaborations, including with R&D teams.
   </p>
   <div class="profile-contact">
     <a href="mailto:sid@inthub.com.au" class="contact-item">
@@ -27,12 +27,12 @@ title: Sid - Integration & Solution Architect
 </div>
 
 <section class="section" id="projects">
-  <h2 class="section-title">Projects</h2>
+  <h2 class="section-title">Key Projects</h2>
   <div class="projects-grid">
     <div class="project-card">
       <div class="project-content">
-        <h3 class="project-title">API-Led Banking Integration Platform</h3>
-        <p class="project-role">Role: Solution Architect</p>
+        <h3 class="project-title">SaaS Platform for Online Orders</h3>
+        <p class="project-role">Role: Product Owner + Delivery Lead</p>
         <p class="project-description">Led the design and implementation of a comprehensive API-led integration platform for a major financial institution, connecting core banking systems with digital channels.</p>
         <div class="project-tech">
           <span class="tech-tag">MuleSoft</span>
@@ -47,6 +47,9 @@ title: Sid - Integration & Solution Architect
             <li>Reduced time-to-market for new integrations by 60%</li>
             <li>Implemented reusable API patterns across the organization</li>
             <li>Established governance framework for API lifecycle management</li>
+            <li>Improved system reliability with 99.9% uptime</li>
+            <li>Reduced operational costs by 35% through standardization</li>
+            <li>Enabled seamless omni-channel customer experiences</li>
           </ul>
         </div>
       </div>
@@ -69,6 +72,9 @@ title: Sid - Integration & Solution Architect
             <li>Increased inventory accuracy to 99.9%</li>
             <li>Reduced order processing time from hours to seconds</li>
             <li>Implemented fault-tolerant design with zero data loss</li>
+            <li>Scaled to handle 10,000+ transactions per second during peak periods</li>
+            <li>Decreased customer order fulfillment complaints by 78%</li>
+            <li>Built comprehensive monitoring dashboards for real-time insights</li>
           </ul>
         </div>
       </div>
@@ -92,6 +98,9 @@ title: Sid - Integration & Solution Architect
             <li>Reduced deployment time from weeks to minutes using CI/CD</li>
             <li>Improved system reliability with 99.99% uptime</li>
             <li>Enabled independent scaling of services based on demand</li>
+            <li>Decreased average response time by 65% through optimized architecture</li>
+            <li>Reduced infrastructure costs by 40% with dynamic scaling</li>
+            <li>Implemented comprehensive security protocols across all services</li>
           </ul>
         </div>
       </div>
@@ -114,8 +123,26 @@ title: Sid - Integration & Solution Architect
             <li>Developed reusable integration assets reducing development time by 40%</li>
             <li>Created comprehensive documentation and training materials</li>
             <li>Implemented metrics and monitoring for all integration points</li>
+            <li>Trained over 50 developers on integration best practices</li>
+            <li>Standardized development practices across 5 global development teams</li>
+            <li>Reduced integration-related production incidents by 75%</li>
           </ul>
         </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section" id="hire-me">
+  <h2 class="section-title">Hire Me</h2>
+  <div class="hire-me-container">
+    <div class="hire-me-content">
+      <p>Looking for an experienced integration architect for your next project? I bring 20+ years of expertise in designing and implementing scalable, reliable integration solutions across industries.</p>
+      <p>Whether you need help with API strategy, microservices architecture, or enterprise integration patterns, I can help you build solutions that drive business value.</p>
+      <div class="hire-me-action">
+        <a href="https://outlook.office.com/owa/calendar/Hireme@inthub.com.au/bookings/" class="book-now-button">
+          <i class="far fa-calendar-check"></i> Book Now
+        </a>
       </div>
     </div>
   </div>

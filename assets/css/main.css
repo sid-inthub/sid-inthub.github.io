@@ -1,6 +1,3 @@
----
----
-
 /* Base styles for the site */
 @import url("https://fonts.googleapis.com/css?family=Lato:300italic,700italic,300,700");
 
@@ -14,7 +11,7 @@
 }
 
 body {
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-family: 'Lato', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   line-height: 1.6;
   color: var(--text-color);
   background-color: #fff;
@@ -335,5 +332,14 @@ body {
   .book-now-button {
     width: 100%;
     padding: 12px 0;
+  }
+  
+  .profile-contact {
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .contact-item {
+    margin: 5px 0;
   }
 }
