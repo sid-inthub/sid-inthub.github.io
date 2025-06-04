@@ -80,6 +80,7 @@ availability_status: "Available for New Engagements"
               <span class="tech-tag">Solace</span>
               <span class="tech-tag">Salesforce</span>
               <span class="tech-tag">SAP</span>
+              <span class="tech-tag">Agile Delivery</span>
             </div>
             <div class="project-achievements">
               <ul>
@@ -127,12 +128,12 @@ availability_status: "Available for New Engagements"
         <div class="skill-category">
           <h3 class="category-title">Integration Platforms & API</h3>
           <ul class="skill-items">
-            <li>MuleSoft (API Led, ESB)</li>
+            <li>MuleSoft</li>
             <li>IBM Suite (IIB, ACE, MQ, API Connect, DataPower)</li>
             <li>Boomi</li>
             <li>Solace</li>
             <li>AWS Integration Services (API Gateway, SQS, SNS, Lambda)</li>
-            <li>Apigee, Kong, WSO2, TIBCO (Exposure)</li>
+            <li>Workato & TIBCO (Exposure)</li>
           </ul>
         </div>
         
@@ -149,7 +150,7 @@ availability_status: "Available for New Engagements"
         </div>
         
         <div class="skill-category">
-          <h3 class="category-title">API Design & Security</h3>
+          <h3 class="category-title">API Design & Management</h3>
           <ul class="skill-items">
             <li>REST, SOAP, GraphQL, AsyncAPI, gRPC</li>
             <li>API Security: OAuth 2.0, OpenID Connect, SAML, JWT</li>
@@ -250,7 +251,12 @@ availability_status: "Available for New Engagements"
           <li>Created Integration & Solution architecture artifacts, led discovery & design sessions, communicated technology vision.</li>
           <li>Applied Event-Driven Architecture (EDA) principles, mapping data flows, identifying Systems of Record (SOR) and Sources of Truth (SOT).</li>
           <li>Developed new integration solutions for Salesforce Commerce Cloud, API Connect, Secure Gateway, IIB, SAP, MuleSoft (3-layered architecture), and Solace (EDA with MuleSoft-Solace connector).</li>
-          <li>Led Integration implementation (MuleSoft/Queuing) for Order Management Project, winning IT News Mass Market Award 2021.</li>
+          <li>
+            Led Integration implementation using MuleSoft/Queuing for an 
+            <a href="https://www.itnews.com.au/news/meet-the-mass-market-finalists-in-the-2021-itnews-benchmark-awards-560540" target="_blank">Order Management Project</a> 
+            that won the IT News Mass Market Award 2021 
+            (<a href="https://player.vimeo.com/video/506729610" target="_blank">Video Link</a>).
+          </li>
         </ul>
 
         <h3>Integration Delivery Lead, Solution Architect, Technical Business Analyst | Sunsuper | 3+ years</h3>
