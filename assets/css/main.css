@@ -192,6 +192,11 @@ body {
   font-size: 0.9rem;
 }
 
+.limited-exposure {
+  font-style: italic;
+  color: #666;
+}
+
 /* Hire Me Section (New) */
 /* .hire-me-section can be used if specific section-level styles are needed later,
    beyond what .section provides. For now, it's removed to avoid empty ruleset. */

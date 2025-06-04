@@ -34,9 +34,9 @@ availability_status: "Available for New Engagements"
       <div class="projects-grid">
         <div class="project-card">
           <div class="project-content">
-            <h3 class="project-title">In-house SaaS Platform for Small Businesses</h3>
+            <h3 class="project-title">Online Ordering SaaS Platform</h3>
             <p class="project-role">Role: Product Owner, Product Manager, Delivery Lead, Service Design Lead<br><br></p>
-            <p class="project-client">Client: INTHUB Solutions (Internal Project)</p>
+            <p class="project-client">Client: INTHUB Solutions</p>
             <p class="project-description">As a founding member, led the development of an in-house SaaS platform designed to empower restaurant-style and similar small businesses with a fully digital customer ordering and order management experience.</p>
             <div class="project-tech">
               <span class="tech-tag">AWS</span>
@@ -68,7 +68,7 @@ availability_status: "Available for New Engagements"
 
         <div class="project-card">
           <div class="project-content">
-            <h3 class="project-title">Integration Modernization & EDA Implementation</h3>
+            <h3 class="project-title">Integration Modernization & EDA</h3>
             <p class="project-role">Role: Integration Delivery Lead, Service Design Lead, Integration Solution Architect, Technical Business Analyst</p>
             <p class="project-client">Client: Super Retail Group (SRG)</p>
             <p class="project-description">Contributed to various high-impact projects, including a new web platform, Order Management, Customer and Loyalty programs. Played a key role in the selection and implementation of an EDA platform (Solace).</p>
@@ -79,8 +79,9 @@ availability_status: "Available for New Engagements"
               <span class="tech-tag">IBM MQ</span>
               <span class="tech-tag">Solace</span>
               <span class="tech-tag">Salesforce</span>
-              <span class="tech-tag">SAP</span>
               <span class="tech-tag">Agile Delivery</span>
+              <span class="tech-tag">SAP</span>
+              <!-- <span class="limited-exposure">SAP</span> -->
             </div>
             <div class="project-achievements">
               <ul>
@@ -97,7 +98,7 @@ availability_status: "Available for New Engagements"
 
         <div class="project-card">
           <div class="project-content">
-            <h3 class="project-title">IBM Integration Stack Transition & ICC Establishment</h3>
+            <h3 class="project-title">IBM Stack & ICC Establishment</h3>
             <p class="project-role">Role: Integration Delivery Lead, Solution Architect, Technical Business Analyst</p>
             <p class="project-client">Client: Sunsuper</p>
             <p class="project-description">Facilitated Sunsuper's transition from a .NET-based integration stack to an IBM integration stack (IIB, MQ). Provided in-house training to over 75 employees and co-established the Integration Competency Centre (ICC).</p>
@@ -133,7 +134,7 @@ availability_status: "Available for New Engagements"
             <li>Boomi</li>
             <li>Solace</li>
             <li>AWS Integration Services (API Gateway, SQS, SNS, Lambda)</li>
-            <li>Workato & TIBCO (Exposure)</li>
+            <li><span class="limited-exposure">Limited Exposure:</span> Workato & TIBCO</li>
           </ul>
         </div>
         
@@ -141,11 +142,11 @@ availability_status: "Available for New Engagements"
           <h3 class="category-title">Cloud & DevOps</h3>
           <ul class="skill-items">
             <li>AWS (EC2, S3, Lambda, API Gateway, DynamoDB, RDS, CloudFormation, CDK)</li>
-            <li>Azure (Logic Apps, Functions, API Management, Service Bus)</li>
-            <li>GCP (Limited Exposure)</li>
-            <li>Docker, Kubernetes</li>
-            <li>Jenkins, GitLab CI, Terraform, Ansible</li>
-            <li>Monitoring: Splunk, ELK, Prometheus, Grafana</li>
+            <li><span class="limited-exposure">Limited Exposure:</span> Azure (Logic Apps, Functions, API Management, Service Bus)</li>
+            <li><span class="limited-exposure">Limited Exposure:</span> GCP</li>
+            <li><span class="limited-exposure">Limited Exposure:</span> Docker, Kubernetes</li>
+            <li>Jenkins, GitHub Actions</li>
+            <li>Monitoring: Splunk, ELK, Grafana</li>
           </ul>
         </div>
         
@@ -173,7 +174,7 @@ availability_status: "Available for New Engagements"
           <h3 class="category-title">Databases & OS</h3>
           <ul class="skill-items">
             <li>Oracle, SQL Server, MySQL, PostgreSQL</li>
-            <li>MongoDB, Cassandra</li>
+            <li>MongoDB, DynamoDB</li>
             <li>Linux, Windows Server</li>
           </ul>
         </div>
