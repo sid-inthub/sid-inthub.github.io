@@ -11,7 +11,8 @@ availability_status: "Available for New Engagements"
       <h1 class="profile-title">Siddharth Shanmugam</h1>
       <h2 class="profile-subtitle">Bridge business needs with technical execution | System Integration | API | EDA</h2>
       <p class="profile-description">
-        Results-driven professional with over 20 years of expertise in development, design, and architecture, specializing in Integration and Solution Architecture. Proficient in Application and System Integration for functional and technical projects, with extensive experience in SOA, ESB, microservices, event-driven, and API-driven designs. Demonstrated success in leading large-scale integration projects across domains. <br/><em>Proven ability to bridge business needs with technical execution, highly skilled at stakeholder engagement, vendor coordination, and driving technical collaborations, including with R&D teams.</em>
+        Results-driven professional with over 20 years of expertise in development, design, and architecture, specializing in Integration and Solution Architecture. Proficient in Application and System Integration for functional and technical projects, with extensive experience in SOA, ESB, microservices, event-driven, and API-driven designs. Demonstrated success in leading large-scale integration projects across domains. <br/>Proven ability to bridge business needs with technical execution, highly skilled at stakeholder engagement, vendor coordination, and driving technical collaborations, including with R&D teams.
+        <!-- <br/> <em>Full employment history available upon request.</em> -->
       </p>
       <div class="profile-contact">
         <a href="mailto:sid@inthub.com.au" class="contact-item">
@@ -36,7 +37,7 @@ availability_status: "Available for New Engagements"
           <div class="project-content">
             <h3 class="project-title">Online Ordering SaaS Platform</h3>
             <p class="project-role">Roles: Product Owner/Manager, Delivery & Service Design Lead<br></p>
-            <p class="project-client">Client: INTHUB Solutions</p>
+            <p class="project-client">Client: INTHUB Solutions<br/><em>1+ years | Brisbane, Australia</em></p>
             <p class="project-description">As a founding member, led the development of an in-house SaaS platform designed to empower restaurant-style and similar small businesses with a fully digital customer ordering and order management experience.</p>
             <div class="project-tech">
               <span class="tech-tag">AWS</span>
@@ -70,7 +71,7 @@ availability_status: "Available for New Engagements"
           <div class="project-content">
             <h3 class="project-title">Integration Modernization & EDA</h3>
             <p class="project-role">Roles: Integration Delivery Lead, Service Design Lead, Integration Solution Architect</p>
-            <p class="project-client">Client: Super Retail Group (SRG)</p>
+            <p class="project-client">Client: Super Retail Group (SRG)<br/><em>5+ years | Brisbane, Australia</em></p>
             <p class="project-description">Contributed to various high-impact projects, including a new web platform, Order Management, Customer and Loyalty programs. Played a key role in the selection and implementation of an EDA platform (Solace).</p>
             <div class="project-tech">
               <span class="tech-tag">MuleSoft</span>
@@ -100,13 +101,15 @@ availability_status: "Available for New Engagements"
           <div class="project-content">
             <h3 class="project-title">IBM Stack & ICC Establishment</h3>
             <p class="project-role">Roles: Integration Solution Architect, Principal Integration Advisor<br></p>
-            <p class="project-client">Client: Sunsuper</p>
+            <p class="project-client">Client: Sunsuper<br/><em>3+ years | Brisbane, Australia</em></p>
             <p class="project-description">Facilitated Sunsuper's transition from a .NET-based integration stack to an IBM integration stack (IIB, MQ). Provided in-house training to over 75 employees and co-established the Integration Competency Centre (ICC).</p>
             <div class="project-tech">
               <span class="tech-tag">IBM IIB v10</span>
               <span class="tech-tag">IBM MQ v9</span>
               <span class="tech-tag">SOA</span>
               <span class="tech-tag">ESB</span>
+              <span class="tech-tag">Integration Roadmap</span>
+              <span class="tech-tag">IBM Integration Training</span>
             </div>
             <div class="project-achievements">
               <ul>
@@ -141,7 +144,7 @@ availability_status: "Available for New Engagements"
         <div class="skill-category">
           <h3 class="category-title">Cloud & DevOps</h3>
           <ul class="skill-items">
-            <li>AWS (EC2, S3, Lambda, API Gateway, DynamoDB, RDS, CloudFormation, CDK)</li>
+            <li>AWS (EC2, S3, Lambda, DynamoDB, CloudFormation)</li>
             <li><span class="limited-exposure">Limited Exposure:</span> Azure (Logic Apps, Functions, API Management, Service Bus)</li>
             <li><span class="limited-exposure">Limited Exposure:</span> GCP</li>
             <li><span class="limited-exposure">Limited Exposure:</span> Docker, Kubernetes</li>
@@ -163,7 +166,7 @@ availability_status: "Available for New Engagements"
           <h3 class="category-title">Languages & Frameworks</h3>
           <ul class="skill-items">
             <li>Java</li>
-            <li>JavaScript/TypeScript</li>
+            <li>JavaScript</li>
             <li>Python</li>
             <li>ReactJS, React Native</li>
             <li>Flutter</li>
@@ -173,19 +176,21 @@ availability_status: "Available for New Engagements"
         <div class="skill-category">
           <h3 class="category-title">Databases & OS</h3>
           <ul class="skill-items">
-            <li>Oracle, SQL Server, MySQL, PostgreSQL</li>
+            <li>Oracle, SQL Server, MySQL</li>
             <li>MongoDB, DynamoDB</li>
             <li>Linux, Windows Server</li>
+            <li>Android Play Store - Admin</li>
+            <li>Apple App Store - Admin</li>
           </ul>
         </div>
         
         <div class="skill-category">
           <h3 class="category-title">Methodologies & Architecture</h3>
           <ul class="skill-items">
-            <li>Agile (Scrum, Kanban), SAFe</li>
-            <li>DevOps, CI/CD, TDD, BDD</li>
-            <li>Microservices Architecture, Event-Driven Architecture (EDA)</li>
-            <li>Domain-Driven Design (DDD), Design Patterns</li>
+            <li>Agile (Scrum, Kanban)</li>
+            <li>TDD, BDD</li>
+            <li>Event-Driven Architecture (EDA)</li>
+            <li>Domain and Data Driven Design (DDD)</li>
             <li>TOGAF</li>
           </ul>
         </div>
@@ -196,45 +201,51 @@ availability_status: "Available for New Engagements"
       <h2 class="section-title">Courses and Certifications</h2>
       <div class="certifications-grid">
         <div class="certification-card">
-          <h3 class="certification-name">Boomi Certified Associate Developer</h3>
+          <h3 class="certification-name">Certified: Associate Developer</h3>
           <p class="certification-issuer">Boomi</p>
         </div>
         <div class="certification-card">
-          <h3 class="certification-name">Boomi Certified Professional Developer</h3>
+          <h3 class="certification-name">Certified: Professional Developer</h3>
           <p class="certification-issuer">Boomi</p>
         </div>
         <div class="certification-card">
-          <h3 class="certification-name">Boomi Certified Professional Architect</h3>
+          <h3 class="certification-name">Certified: Professional Architect</h3>
           <p class="certification-issuer">Boomi, 2023</p>
-          <p class="certification-year">2023</p>
+          <!-- <p class="certification-year">2023</p> -->
         </div>
         <div class="certification-card">
-          <h3 class="certification-name">MuleSoft Development (Mule 4) - Course</h3>
+          <h3 class="certification-name">Course: Mule 4 Development</h3>
           <p class="certification-issuer">MuleSoft</p>
         </div>
         <div class="certification-card">
-          <h3 class="certification-name">AWS Cloud Practitioner - Course</h3>
-          <p class="certification-issuer">Amazon Web Services</p>
+          <h3 class="certification-name">Course: Cloud Practitioner</h3>
+          <p class="certification-issuer">AWS</p>
         </div>
         <div class="certification-card">
-          <h3 class="certification-name">IBM WMB v6.1 Developer, DataPower XI50/XI52 - Course</h3>
-          <p class="certification-issuer">IBM</p>
+          <h3 class="certification-name">Certified: SAP Consultant XI 3.0</h3>
+          <!-- <h3 class="certification-name">Certified: Technology Consultant SAP XI 3.0</h3> -->
+          <p class="certification-issuer">SAP Labs, NetWeaver, 2004</p>
         </div>
         <div class="certification-card">
-          <h3 class="certification-name">Certified Application Developer - IBM WebSphere Transformation Extender V8.2</h3>
-          <p class="certification-issuer">IBM</p>
-        </div>
-        <div class="certification-card">
-          <h3 class="certification-name">Certified Technology Consultant SAP NetWeaver 04 - XI 3.0</h3>
-          <p class="certification-issuer">SAP Labs India</p>
-        </div>
-        <div class="certification-card">
-          <h3 class="certification-name">TOGAF Enterprise Architecture Methodology and Framework (9.1) - Course</h3>
+          <h3 class="certification-name">Course: TOGAF 9.1</h3>
+          <!-- <h3 class="certification-name">TOGAF Enterprise Architecture Methodology and Framework (9.1) - Course</h3> -->
           <p class="certification-issuer">The Open Group</p>
         </div>
         <div class="certification-card">
-          <h3 class="certification-name">TOGAF 9 Foundation Level Certified</h3>
+          <h3 class="certification-name">Certified: TOGAF 9 Foundation Level</h3>
           <p class="certification-issuer">The Open Group (Cert# 74674)</p>
+        </div>
+        <div class="certification-card">
+          <h3 class="certification-name">Course: IIB / WMB Developer</h3>
+          <p class="certification-issuer">IBM</p>
+        </div>
+        <div class="certification-card">
+          <h3 class="certification-name">Course: DataPower XI50/XI52</h3>
+          <p class="certification-issuer">IBM</p>
+        </div>
+        <div class="certification-card">
+          <h3 class="certification-name">Certified: WTX Developer - V8.2</h3>
+          <p class="certification-issuer">IBM</p>
         </div>
       </div>
     </section>
@@ -242,8 +253,8 @@ availability_status: "Available for New Engagements"
     <section class="section" id="experience">
       <h2 class="section-title">Experience</h2>
       <div class="timeline-content">
-        <h3>Integration Delivery Lead, Service Design Lead, Integration Solution Architect, Technical Business Analyst | Super Retail Group (SRG) | 5+ years</h3>
-        <p><em>Location: Brisbane, Australia</em></p>
+        <h3>Integration Delivery Lead, Service Design Lead, Integration Solution Architect</h3>
+        <p class="project-client">Client: Super Retail Group (SRG) | <em>5+ years | Brisbane, Australia</em></p>
         <p><strong>Technology Stack:</strong> IIB V10, IBM API Connect, IBM MQ v9, IBM Secure Gateway, MuleSoft, Solace, GoAnywhere MFT, Salesforce Commerce Cloud, SAP</p>
         <ul>
           <li>Contributed to high-impact projects: new web platform, Order Management, Customer/Loyalty programs, EDA platform (Solace) selection & implementation.</li>
@@ -260,8 +271,10 @@ availability_status: "Available for New Engagements"
           </li>
         </ul>
 
-        <h3>Integration Delivery Lead, Solution Architect, Technical Business Analyst | Sunsuper | 3+ years</h3>
-        <p><em>Location: Brisbane, Australia</em></p>
+        <hr class="section-divider" />
+
+        <h3>Integration Delivery Lead, Solution Architect, Principal Integration Advisor </h3>
+        <p class="project-client">Client: Sunsuper | <em>3+ years | Brisbane, Australia</em></p>
         <p><strong>Technology Stack:</strong> IIB V10, IBM MQ v9</p>
         <ul>
           <li>Facilitated transition from .NET to IBM integration stack (IIB, MQ); provided in-house training to 75+ employees.</li>
@@ -273,15 +286,20 @@ availability_status: "Available for New Engagements"
           <li>Delivered SOA, ESB, IBM (IIB & MQ) training to diverse audiences (analysts, developers, architects, PMs).</li>
         </ul>
 
-        <h3>Product Owner, Product Manager, Delivery Lead, Service Design Lead | INTHUB Solutions | &lt;2 years</h3>
-        <p><em>Location: Brisbane, Australia</em></p>
+        <hr class="section-divider" />
+
+        <h3>Product Owner, Product Manager, Delivery Lead, Service Design Lead</h3>
+        <p class="project-client">Client: INTHUB Solutions | <em>&lt;2 years | Brisbane, Australia</em></p>
         <p><strong>Technology Stack:</strong> AWS Services (Cognito, Amplify, EventBridge, Lambda, DynamoDB, API Gateway), ReactJS, React Native, Flutter, AI Services (Windsurf, Cursor), Stripe Connect</p>
         <ul>
           <li>As a founding member, led development of an in-house SaaS platform for small businesses' digital customer ordering and order management.</li>
           <li><strong>Management:</strong> Defined Product Vision, Roadmap, go-to-market strategy; Market research; End-to-end product lifecycle leadership; Facilitated discovery sessions; Budget management; Daily stand-ups; Defined features, service designs, customer journeys (Jira Product Discovery); Collaborated with Figma UI/UX designers & functional consultants.</li>
           <li><strong>Technology:</strong> Led ReactJS web apps (business management, customer QR ordering) & Flutter mobile app (real-time order management for Android/iOS); Architected on AWS; Scoped Stripe Connect for marketplace payments; Explored AI tools (Chain of Thought, prompt engineering with Windsurf/Cursor, LangChain, Agentic AI, MCP).</li>
         </ul>
-        <p><em>Note: The resume mentions extensive experience from 2004 to date with various other clients including Bank of America, Barclays Bank, IBM India, National Australia Bank, Volvo IT, Nestlé, etc. Full employment history available upon request.</em></p>
+        <p><em>Note: I have good experience working on numerous projects and with a diverse range of clients. Detailed information on specific projects and full Employment History, can be provided upon request. 
+        
+        References and Personal/Passport Information are also available upon request. 
+        </em></p>
       </div>
     </section>
 
