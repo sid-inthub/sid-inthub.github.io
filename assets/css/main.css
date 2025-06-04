@@ -347,6 +347,61 @@ body {
   }
 }
 
+/* Experience Section Redesign */
+.experience-item {
+  background-color: #f9f9f9; /* Light grey background */
+  border: 1px solid #e0e0e0; /* Light border */
+  border-radius: 8px; /* Rounded corners */
+  padding: 20px; /* Inner spacing */
+  margin-bottom: 25px; /* Space between items */
+  box-shadow: 0 2px 5px rgba(0,0,0,0.05); /* Subtle shadow */
+}
+
+.experience-role-company {
+  margin-bottom: 10px;
+}
+
+.experience-role-company .role {
+  display: block; /* Role on its own line */
+  font-size: 1.1em; /* Larger font for role */
+  font-weight: bold;
+  color: var(--primary-color); /* Use site's primary color */
+  margin-bottom: 5px;
+}
+
+.experience-role-company .company-details {
+  display: block; /* Company details on its own line */
+  font-size: 0.9em;
+  color: #555; /* Darker grey for company details */
+}
+
+.experience-tech {
+  font-size: 0.95em;
+  margin-bottom: 10px;
+  color: #333;
+}
+
+.experience-tech strong {
+  color: var(--text-color);
+}
+
+.experience-points {
+  list-style-type: disc; /* Standard bullets */
+  padding-left: 20px; /* Indent list items */
+  margin-bottom: 0; /* Remove default bottom margin from ul */
+}
+
+.experience-points li {
+  margin-bottom: 8px; /* Space between list items */
+  line-height: 1.6;
+}
+
+/* Ensure the section divider still has some space if it's directly after an item */
+.experience-item + .section-divider {
+  margin-top: 0; /* Remove top margin if it follows an item directly */
+  margin-bottom: 25px; /* Ensure space before the next item */
+}
+
 @media (max-width: 768px) {
   .projects-grid, 
   .skills-container, 

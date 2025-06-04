@@ -253,10 +253,13 @@ availability_status: "Available for New Engagements"
     <section class="section" id="experience">
       <h2 class="section-title">Experience</h2>
       <div class="timeline-content">
-        <h3>Integration Delivery Lead, Service Design Lead, Integration Solution Architect</h3>
-        <p class="project-client">Client: Super Retail Group (SRG) | <em>5+ years | Brisbane, Australia</em></p>
-        <p><strong>Technology Stack:</strong> IIB V10, IBM API Connect, IBM MQ v9, IBM Secure Gateway, MuleSoft, Solace, GoAnywhere MFT, Salesforce Commerce Cloud, SAP</p>
-        <ul>
+        <div class="experience-item">
+          <h3 class="experience-role-company">
+            <span class="role">Service Design & Delivery Lead, Integration Solution Architect</span>
+            <span class="company-details">Client: Super Retail Group (SRG) | <em>5+ years | Brisbane, Australia</em></span>
+          </h3>
+          <p class="experience-tech"><strong>Technology Stack:</strong> IIB V10, IBM API Connect, IBM MQ v9, IBM Secure Gateway, MuleSoft, Solace, GoAnywhere MFT, Salesforce Commerce Cloud, SAP</p>
+          <ul class="experience-points">
           <li>Contributed to high-impact projects: new web platform, Order Management, Customer/Loyalty programs, EDA platform (Solace) selection & implementation.</li>
           <li>Co-led migration from IBM stack (API Connect, IIB, MQ) to MuleSoft, Anypoint MQ, GoAnywhere MFT, and Solace.</li>
           <li>Collaborated with Business/Technology stakeholders for process documentation, technical oversight, troubleshooting, vendor product integration, and innovation.</li>
@@ -270,13 +273,17 @@ availability_status: "Available for New Engagements"
             (<a href="https://player.vimeo.com/video/506729610" target="_blank">Video Link</a>).
           </li>
         </ul>
+        </div>
 
         <hr class="section-divider" />
 
-        <h3>Integration Delivery Lead, Solution Architect, Principal Integration Advisor </h3>
-        <p class="project-client">Client: Sunsuper | <em>3+ years | Brisbane, Australia</em></p>
-        <p><strong>Technology Stack:</strong> IIB V10, IBM MQ v9</p>
-        <ul>
+        <div class="experience-item">
+          <h3 class="experience-role-company">
+            <span class="role">Integration Delivery Lead, Principal Integration Advisor</span>
+            <span class="company-details">Client: Sunsuper | <em>3+ years | Brisbane, Australia</em></span>
+          </h3>
+          <p class="experience-tech"><strong>Technology Stack:</strong> IIB V10, IBM MQ v9</p>
+          <ul class="experience-points">
           <li>Facilitated transition from .NET to IBM integration stack (IIB, MQ); provided in-house training to 75+ employees.</li>
           <li>Co-established Integration Competency Centre (ICC) to implement ESB using IIB and IBM MQ.</li>
           <li>Co-led greenfield implementation from Microsoft stack to IBM Integration stack.</li>
@@ -285,17 +292,22 @@ availability_status: "Available for New Engagements"
           <li>Developed Integration Roadmaps and contributed to Integration Governance Framework & standardized Estimation Model.</li>
           <li>Delivered SOA, ESB, IBM (IIB & MQ) training to diverse audiences (analysts, developers, architects, PMs).</li>
         </ul>
+        </div>
 
         <hr class="section-divider" />
 
-        <h3>Product Owner, Product Manager, Delivery Lead, Service Design Lead</h3>
-        <p class="project-client">Client: INTHUB Solutions | <em>&lt;2 years | Brisbane, Australia</em></p>
-        <p><strong>Technology Stack:</strong> AWS Services (Cognito, Amplify, EventBridge, Lambda, DynamoDB, API Gateway), ReactJS, React Native, Flutter, AI Services (Windsurf, Cursor), Stripe Connect</p>
-        <ul>
+        <div class="experience-item">
+          <h3 class="experience-role-company">
+            <span class="role">Product Owner/Manager, Service Design & Delivery Lead</span>
+            <span class="company-details">Client: INTHUB Solutions | <em>&lt;2 years | Brisbane, Australia</em></span>
+          </h3>
+          <p class="experience-tech"><strong>Technology Stack:</strong> AWS Services (Cognito, Amplify, EventBridge, Lambda, DynamoDB, API Gateway), ReactJS, React Native, Flutter, AI Services (Windsurf, Cursor), Stripe Connect</p>
+          <ul class="experience-points">
           <li>As a founding member, led development of an in-house SaaS platform for small businesses' digital customer ordering and order management.</li>
           <li><strong>Management:</strong> Defined Product Vision, Roadmap, go-to-market strategy; Market research; End-to-end product lifecycle leadership; Facilitated discovery sessions; Budget management; Daily stand-ups; Defined features, service designs, customer journeys (Jira Product Discovery); Collaborated with Figma UI/UX designers & functional consultants.</li>
           <li><strong>Technology:</strong> Led ReactJS web apps (business management, customer QR ordering) & Flutter mobile app (real-time order management for Android/iOS); Architected on AWS; Scoped Stripe Connect for marketplace payments; Explored AI tools (Chain of Thought, prompt engineering with Windsurf/Cursor, LangChain, Agentic AI, MCP).</li>
-        </ul>
+          </ul>
+        </div>
         <p><em>Note: I have good experience working on numerous projects and with a diverse range of clients. Detailed information on specific projects and full Employment History, can be provided upon request. 
         
         References and Personal/Passport Information are also available upon request. 
