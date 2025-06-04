@@ -35,7 +35,7 @@ availability_status: "Available for New Engagements"
       <div class="projects-grid">
         <div class="project-card">
           <div class="project-content">
-            <h3 class="project-title">Online Ordering SaaS Platform</h3>
+            <h3 class="project-title">Digital Ordering SaaS Platform</h3>
             <p class="project-role">Roles: Product Owner/Manager, Delivery & Service Design Lead<br></p>
             <p class="project-client">Client: INTHUB Solutions<br/><em>1+ years | Brisbane, Australia</em></p>
             <p class="project-description">As a founding member, led the development of an in-house SaaS platform designed to empower restaurant-style and similar small businesses with a fully digital customer ordering and order management experience.</p>
@@ -247,6 +247,10 @@ availability_status: "Available for New Engagements"
           <h3 class="certification-name">Certified: WTX Developer - V8.2</h3>
           <p class="certification-issuer">IBM</p>
         </div>
+        <div class="certification-card">
+          <h3 class="certification-name">Course: Automation Pro I, II</h3>
+          <p class="certification-issuer">Workato</p>
+        </div>
       </div>
     </section>
 
@@ -258,14 +262,14 @@ availability_status: "Available for New Engagements"
             <span class="role">Service Design & Delivery Lead, Integration Solution Architect</span>
             <span class="company-details">Client: Super Retail Group (SRG) | <em>5+ years | Brisbane, Australia</em></span>
           </h3>
-          <p class="experience-tech"><strong>Technology Stack:</strong> IIB V10, IBM API Connect, IBM MQ v9, IBM Secure Gateway, MuleSoft, Solace, GoAnywhere MFT, Salesforce Commerce Cloud, SAP</p>
+          <p class="experience-tech"><strong>Technology Stack:</strong> IIB, IBM API Connect, MQ, IBM Secure Gateway, MuleSoft, Solace, GoAnywhere, Salesforce, SAP</p>
           <ul class="experience-points">
-          <li>Contributed to high-impact projects: new web platform, Order Management, Customer/Loyalty programs, EDA platform (Solace) selection & implementation.</li>
+          <li>Contributed to high-impact projects: new web platform, Order Management, Customer/Loyalty programs, EDA platform Evaluation and Implementation (Solace).</li>
           <li>Co-led migration from IBM stack (API Connect, IIB, MQ) to MuleSoft, Anypoint MQ, GoAnywhere MFT, and Solace.</li>
           <li>Collaborated with Business/Technology stakeholders for process documentation, technical oversight, troubleshooting, vendor product integration, and innovation.</li>
           <li>Created Integration & Solution architecture artifacts, led discovery & design sessions, communicated technology vision.</li>
           <li>Applied Event-Driven Architecture (EDA) principles, mapping data flows, identifying Systems of Record (SOR) and Sources of Truth (SOT).</li>
-          <li>Developed new integration solutions for Salesforce Commerce Cloud, API Connect, Secure Gateway, IIB, SAP, MuleSoft (3-layered architecture), and Solace (EDA with MuleSoft-Solace connector).</li>
+         <!-- <li>Developed new integration solutions for Salesforce Commerce Cloud, API Connect, Secure Gateway, IIB, SAP, MuleSoft (3-layered architecture), and Solace (EDA with MuleSoft-Solace connector).</li> -->
           <li>
             Led Integration implementation using MuleSoft/Queuing for an 
             <a href="https://www.itnews.com.au/news/meet-the-mass-market-finalists-in-the-2021-itnews-benchmark-awards-560540" target="_blank">Order Management Project</a> 
@@ -282,15 +286,14 @@ availability_status: "Available for New Engagements"
             <span class="role">Integration Delivery Lead, Principal Integration Advisor</span>
             <span class="company-details">Client: Sunsuper | <em>3+ years | Brisbane, Australia</em></span>
           </h3>
-          <p class="experience-tech"><strong>Technology Stack:</strong> IIB V10, IBM MQ v9</p>
+          <p class="experience-tech"><strong>Technology Stack:</strong> IIB, MQ</p>
           <ul class="experience-points">
-          <li>Facilitated transition from .NET to IBM integration stack (IIB, MQ); provided in-house training to 75+ employees.</li>
-          <li>Co-established Integration Competency Centre (ICC) to implement ESB using IIB and IBM MQ.</li>
-          <li>Co-led greenfield implementation from Microsoft stack to IBM Integration stack.</li>
+          <li>Co-led greenfield implementation & facilitated transition from Microsoft to IBM integration stack (IIB, MQ)</li>
+          <li>Co-established Integration Competency Centre (ICC) to implement ESB using IIB and MQ.</li>
           <li>Contributed to solution design of Shared Services & Libraries for ICC, centralizing Core Services management.</li>
           <li>Provided architectural leadership for IBM Integration Bus (IIB) and WebSphere MQ (WMQ) technologies.</li>
           <li>Developed Integration Roadmaps and contributed to Integration Governance Framework & standardized Estimation Model.</li>
-          <li>Delivered SOA, ESB, IBM (IIB & MQ) training to diverse audiences (analysts, developers, architects, PMs).</li>
+          <li>Delivered SOA, ESB, IBM (IIB & MQ) training to 75+ employees with diverse background (analysts, developers,testers, architects, PMs).</li>
         </ul>
         </div>
 
@@ -303,9 +306,27 @@ availability_status: "Available for New Engagements"
           </h3>
           <p class="experience-tech"><strong>Technology Stack:</strong> AWS Services (Cognito, Amplify, EventBridge, Lambda, DynamoDB, API Gateway), ReactJS, React Native, Flutter, AI Services (Windsurf, Cursor), Stripe Connect</p>
           <ul class="experience-points">
-          <li>As a founding member, led development of an in-house SaaS platform for small businesses' digital customer ordering and order management.</li>
-          <li><strong>Management:</strong> Defined Product Vision, Roadmap, go-to-market strategy; Market research; End-to-end product lifecycle leadership; Facilitated discovery sessions; Budget management; Daily stand-ups; Defined features, service designs, customer journeys (Jira Product Discovery); Collaborated with Figma UI/UX designers & functional consultants.</li>
-          <li><strong>Technology:</strong> Led ReactJS web apps (business management, customer QR ordering) & Flutter mobile app (real-time order management for Android/iOS); Architected on AWS; Scoped Stripe Connect for marketplace payments; Explored AI tools (Chain of Thought, prompt engineering with Windsurf/Cursor, LangChain, Agentic AI, MCP).</li>
+          <li>As a founding member, led development of an in-house SaaS platform for small business digital customer ordering and order management.</li>
+          <!-- <li><strong>Key (Management) Responsibilities:</strong></li> -->
+          <li>Key (Management) Responsibilities:<br/>
+          -	Defined Product Vision, Roadmap and go-to market strategy<br/>
+          - Conduct Market research and competitor analysis<br/>
+          -	Led the end-to-end product lifecycle from concept, discovery through to development and production<br/>
+          -	Facilitated discovery sessions with functional & technical stakeholders to align vision, scope, and delivery<br/>
+          -	Defined product features, service designs, and customer journeys using Jira Product Discovery<br/>
+          - Translate Jira Product Discovery features into actionable stories in Jira Software<br/>
+          -	Collaborated closely with Figma UI/UX designers to shape user-centric prototypes and conceptual views<br/>
+          -	Engaged with functional consultants to detail requirements and visual flows via tools like Zeplin
+          </li>
+          <li>Key (Technology) Highlights:<br/>
+          - Lead the design and development of ReactJS and Flutter apps<br>
+          - Deployments to Android and iOS app stores<br>
+          -	Architected the solution on AWS, leveraging services like Cognito, Amplify, EventBridge and more<br/>
+          -	Scoped and assessed the Stripe Connect platform to enable marketplace-style payments<br/>
+          - Engaged with Stripe & other platforms to evaluate integration strategies and options<br/>
+          -	Actively exploring and applying AI tools and techniques, including Chain of Thought prompting, prompt engineering with AI-powered editors like Windsurf and Cursor to generate or refine front-end components based on Figma designs and treating LLM’s like humans when requesting prompting<br/>
+          -	Currently exploring LangChain, Agentic AI, and the Model Context Protocol (MCP) to stay ahead in AI-driven product development
+          </li>
           </ul>
         </div>
         <p><em>Note: I have good experience working on numerous projects and with a diverse range of clients. Detailed information on specific projects and full Employment History, can be provided upon request. 
