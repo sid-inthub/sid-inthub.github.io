@@ -35,7 +35,7 @@ availability_status: "Available for New Engagements"
         <div class="project-card">
           <div class="project-content">
             <h3 class="project-title">Online Ordering SaaS Platform</h3>
-            <p class="project-role">Role: Product Owner, Product Manager, Delivery Lead, Service Design Lead<br><br></p>
+            <p class="project-role">Roles: Product Owner/Manager, Delivery & Service Design Lead<br></p>
             <p class="project-client">Client: INTHUB Solutions</p>
             <p class="project-description">As a founding member, led the development of an in-house SaaS platform designed to empower restaurant-style and similar small businesses with a fully digital customer ordering and order management experience.</p>
             <div class="project-tech">
@@ -49,7 +49,7 @@ availability_status: "Available for New Engagements"
               <span class="tech-tag">Cursor AI</span>
             </div>
             <div class="project-achievements">
-              <strong>Key Responsibilities & Achievements:</strong>
+              <!-- <strong>Key Responsibilities & Achievements:</strong> -->
               <ul>
                 <li>Defined Product Vision, Roadmap, and go-to-market strategy; conducted market research and competitor analysis.</li>
                 <li>Led the end-to-end product lifecycle from concept and discovery through to development and production rollout.</li>
@@ -69,7 +69,7 @@ availability_status: "Available for New Engagements"
         <div class="project-card">
           <div class="project-content">
             <h3 class="project-title">Integration Modernization & EDA</h3>
-            <p class="project-role">Role: Integration Delivery Lead, Service Design Lead, Integration Solution Architect, Technical Business Analyst</p>
+            <p class="project-role">Roles: Integration Delivery Lead, Service Design Lead, Integration Solution Architect</p>
             <p class="project-client">Client: Super Retail Group (SRG)</p>
             <p class="project-description">Contributed to various high-impact projects, including a new web platform, Order Management, Customer and Loyalty programs. Played a key role in the selection and implementation of an EDA platform (Solace).</p>
             <div class="project-tech">
@@ -99,7 +99,7 @@ availability_status: "Available for New Engagements"
         <div class="project-card">
           <div class="project-content">
             <h3 class="project-title">IBM Stack & ICC Establishment</h3>
-            <p class="project-role">Role: Integration Delivery Lead, Solution Architect, Technical Business Analyst</p>
+            <p class="project-role">Roles: Integration Solution Architect, Principal Integration Advisor<br></p>
             <p class="project-client">Client: Sunsuper</p>
             <p class="project-description">Facilitated Sunsuper's transition from a .NET-based integration stack to an IBM integration stack (IIB, MQ). Provided in-house training to over 75 employees and co-established the Integration Competency Centre (ICC).</p>
             <div class="project-tech">
