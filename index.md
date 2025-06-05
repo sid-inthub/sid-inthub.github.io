@@ -179,8 +179,8 @@ availability_status: "Available for New Engagements"
             <li>Oracle, SQL Server, MySQL</li>
             <li>MongoDB, DynamoDB</li>
             <li>Linux, Windows Server</li>
-            <li>Android Play Store - Admin</li>
-            <li>Apple App Store - Admin</li>
+            <li>IBM Advanced Interactive eXecutive (AIX)</li>
+            <li>Android Play & Apple App Store - Admin</li>
           </ul>
         </div>
         
@@ -210,7 +210,7 @@ availability_status: "Available for New Engagements"
         </div>
         <div class="certification-card">
           <h3 class="certification-name">Certified: Professional Architect</h3>
-          <p class="certification-issuer">Boomi, 2023</p>
+          <p class="certification-issuer">Boomi</p>
           <!-- <p class="certification-year">2023</p> -->
         </div>
         <div class="certification-card">
@@ -224,7 +224,7 @@ availability_status: "Available for New Engagements"
         <div class="certification-card">
           <h3 class="certification-name">Certified: SAP Consultant XI 3.0</h3>
           <!-- <h3 class="certification-name">Certified: Technology Consultant SAP XI 3.0</h3> -->
-          <p class="certification-issuer">SAP Labs, NetWeaver, 2004</p>
+          <p class="certification-issuer">SAP Labs, NetWeaver</p>
         </div>
         <div class="certification-card">
           <h3 class="certification-name">Course: TOGAF 9.1</h3>
@@ -329,6 +329,53 @@ availability_status: "Available for New Engagements"
           </li>
           </ul>
         </div>
+
+        <hr class="section-divider" />
+
+        <div class="experience-item">
+          <h3 class="experience-role-company">
+            <span class="role">Integration Consultant & Advisor</span>
+            <span class="company-details">Client: BHP | <em>1 year | Perth, Australia</em></span>
+          </h3>
+          <p class="experience-tech"><strong>Technology Stack:</strong> IIB, MQ</p>
+          <ul class="experience-points">
+          <li>Delivered Gap Analysis Document detailing Key Items impacted between Base Architecture and Target Architecture</li>
+          <li>Reviewed Interface Blueprints for providing a contextual insight into the Integration Architecture</li>
+          <li>Designed Integration Patterns using Pattern Authoring Tool with multi-system and multi-protocol capabilities</li>
+          <li>Lead Technical Sessions for BHP/IBM for provisioning the proposed IBM SCAPM as a Monitoring Solution and use of DataPower within the Integration Layer</li>
+          <li>Developed Integration Roadmaps, Governance Framework & standardized Estimation Model</li>
+          <li>Setting up IIB Administration, Work Load management policies, Statistics and Monitoring</li>
+        </ul>
+        </div>
+
+        <hr class="section-divider" />
+
+        <div class="experience-item">
+          <h3 class="experience-role-company">
+            <span class="role">Integration Consultant</span>
+            <span class="company-details">Client: Roads and Maritime Services (RMS) | <em>8 months | Sydney, Australia</em></span>
+          </h3>
+          <ul class="experience-points">
+          <li>Worked as an Integration Technical Lead, specializing in IIB Technology, providing Architectural Guidance, defining IIB Design and Development Standards and reviewing Vendor Development</li>
+        </ul>
+        <h3 class="experience-role-company">
+            <span class="role">Senior ESB Consultant</span>
+            <span class="company-details">Client: Medibank | <em>&lt;1 year | Melbourne, Australia</em></span>
+          </h3>
+          <ul class="experience-points">
+          <li>Worked as a Senior ESB Consultant, designing and developing services on TIBCO suite of products</li>
+        </ul>
+        <h3 class="experience-role-company">
+            <span class="role">Integration Specialist</span>
+            <span class="company-details">Client: Coles IT | <em>&lt;2 years | Melbourne, Australia</em></span>
+          </h3>
+          <ul class="experience-points">
+          <li>Worked as an Integration Specialist, specializing on SOA/ESB based developments using WebSphere Technologies, mainly on IIB9, WMB & MQ</li>
+        </ul>
+        </div>
+
+        <hr class="section-divider" />
+
         <p><em>Note: I have good experience working on numerous projects and with a diverse range of clients. Detailed information on specific projects and full Employment History, can be provided upon request. 
         
         References and Personal/Passport Information are also available upon request. 
