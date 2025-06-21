@@ -15,15 +15,15 @@ availability_status: "Available for New Engagements"
         <!-- <br/> <em>Full employment history available upon request.</em> -->
       </p>
       <div class="profile-contact">
-        <a href="mailto:sid@inthub.com.au" class="contact-item">
-          <i class="fas fa-envelope"></i> sid@inthub.com.au
+        <a href="mailto:sid.shan@outlook.com" class="contact-item">
+          <i class="fas fa-envelope"></i> sid.shan@outlook.com
         </a>
         <a href="https://www.linkedin.com/in/sidshan/" class="contact-item" target="_blank" rel="noopener noreferrer">
           <i class="fab fa-linkedin"></i> LinkedIn
         </a>
-        <!--<a href="https://github.com/sid-inthub" class="contact-item" target="_blank" rel="noopener noreferrer">
-  <i class="fab fa-github"></i> GitHub
-</a>-->
+        <!--<a href="https://sid-inthub.github.io/" class="contact-item" target="_blank" rel="noopener noreferrer">
+          <i class="fab fa-github"></i> GitHub
+        </a> -->
       </div>
       <div class="profile-availability">
         {{ page.availability_status }}
