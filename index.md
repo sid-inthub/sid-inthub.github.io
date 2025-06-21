@@ -36,18 +36,17 @@ availability_status: "Available for New Engagements"
         <div class="project-card">
           <div class="project-content">
             <h3 class="project-title">Digital Ordering SaaS Platform</h3>
-            <p class="project-role">Roles: Product Owner/Manager, Delivery & Service Design Lead<br></p>
-            <p class="project-client">Client: INTHUB Solutions<br/><em>1+ years | Brisbane, Australia</em></p>
-            <p class="project-description">As a founding member, led the development of an in-house SaaS platform designed to empower restaurant-style and similar small businesses with a fully digital customer ordering and order management experience.</p>
+            <p class="project-role">Roles: Service Design Lead, Product Manager, AI Prompt Engineer<br></p>
+            <p class="project-client">Client: INTHUB <br/><em>2 years | Brisbane, Australia</em></p>
+            <p class="project-description">Led the development of an in-house SaaS platform designed to empower restaurant-style small businesses with a fully digital customer ordering and order management experience.</p>
             <div class="project-tech">
-              <span class="tech-tag">AWS</span>
               <span class="tech-tag">ReactJS</span>
               <span class="tech-tag">React Native</span>
               <span class="tech-tag">Flutter</span>
-              <span class="tech-tag">AI Services</span>
               <span class="tech-tag">Stripe Connect</span>
-              <span class="tech-tag">Windsurf AI</span>
-              <span class="tech-tag">Cursor AI</span>
+              <span class="tech-tag">AWS</span>
+              <span class="tech-tag">AI Prompt Engineering</span>
+              <!-- <span class="tech-tag">Cursor AI</span> -->
             </div>
             <div class="project-achievements">
               <!-- <strong>Key Responsibilities & Achievements:</strong> -->
@@ -70,9 +69,9 @@ availability_status: "Available for New Engagements"
         <div class="project-card">
           <div class="project-content">
             <h3 class="project-title">Integration Modernization & EDA</h3>
-            <p class="project-role">Roles: Integration Delivery Lead, Service Design Lead, Integration Solution Architect</p>
+            <p class="project-role">Roles: Integration Lead, Service Design Lead, Event Schema Designer</p>
             <p class="project-client">Client: Super Retail Group (SRG)<br/><em>5+ years | Brisbane, Australia</em></p>
-            <p class="project-description">Contributed to various high-impact projects, including a new web platform, Order Management, Customer and Loyalty programs. Played a key role in the selection and implementation of an EDA platform (Solace).</p>
+            <p class="project-description">Contributed to various high-impact projects - Order Management, Customer and Loyalty programs. Played a key role in the selection and implementation of an EDA platform (Solace).</p>
             <div class="project-tech">
               <span class="tech-tag">MuleSoft</span>
               <span class="tech-tag">IBM IIB</span>
@@ -91,7 +90,12 @@ availability_status: "Available for New Engagements"
                 <li>Created Integration & Solution architecture artifacts and led discovery & design sessions.</li>
                 <li>Applied Event-Driven Architecture (EDA) principles, mapping data flows and identifying SOR/SOT.</li>
                 <li>Developed new integration solutions for Salesforce Commerce Cloud, API Connect, IIB, SAP, MuleSoft, and Solace (event-driven with MuleSoft-Solace connector).</li>
-                <li>Led Integration implementation using MuleSoft/Queuing for an Order Management Project that won the IT News Mass Market Award 2021.</li>
+                <li>
+                  Led Integration implementation using MuleSoft/Queuing for an 
+                  <a href="https://www.itnews.com.au/news/meet-the-mass-market-finalists-in-the-2021-itnews-benchmark-awards-560540" target="_blank">Order Management Project</a> 
+                  that won the IT News Mass Market Award 2021 
+                  (<a href="https://player.vimeo.com/video/506729610" target="_blank">Video Link</a>).
+                </li>
               </ul>
             </div>
           </div>
@@ -102,7 +106,7 @@ availability_status: "Available for New Engagements"
             <h3 class="project-title">IBM Stack & ICC Establishment</h3>
             <p class="project-role">Roles: Integration Solution Architect, Principal Integration Advisor<br></p>
             <p class="project-client">Client: Sunsuper<br/><em>3+ years | Brisbane, Australia</em></p>
-            <p class="project-description">Facilitated Sunsuper's transition from a .NET-based integration stack to an IBM integration stack (IIB, MQ). Provided in-house training to over 75 employees and co-established the Integration Competency Centre (ICC).</p>
+            <p class="project-description">Facilitated Sunsuper's transition from a .NET-based integration to an IBM integration (IIB, MQ). Provided in-house training to over 75 employees and co-established the ICC.</p>
             <div class="project-tech">
               <span class="tech-tag">IBM IIB v10</span>
               <span class="tech-tag">IBM MQ v9</span>
@@ -197,7 +201,7 @@ availability_status: "Available for New Engagements"
       </div>
     </section>
 
-    <section class="section" id="certifications">
+<section class="section" id="certifications">
       <h2 class="section-title">Courses and Certifications</h2>
       <div class="certifications-grid">
         <div class="certification-card">
@@ -251,10 +255,105 @@ availability_status: "Available for New Engagements"
           <h3 class="certification-name">Course: Automation Pro I, II</h3>
           <p class="certification-issuer">Workato</p>
         </div>
+        <div class="certification-card">
+          <h3 class="certification-name">Certified: Automation Pro I</h3>
+          <p class="certification-issuer">Workato</p>
+        </div>
+        <div class="certification-card">
+          <h3 class="certification-name">Education: Bachelor of Engineering (Computer Science)</h3>
+          <p class="certification-issuer">Visvesvaraya Technological University, Belgaum (India) | 2000 - 2004</p>
+        </div>
       </div>
     </section>
 
     <section class="section" id="experience">
+      <h2 class="section-title">Experiences</h2>
+      <div class="experience-grid">
+        <div class="experience-card">
+          <h3 class="experience-name">Client: Super Retail Group (SRG)</h3>
+          <p class="experience-issuer">5+ years | Brisbane, Australia</p>
+          <p class="experience-tech">Technology Exp: IIB, IBM API Connect, MQ, IBM Secure Gateway, MuleSoft, Solace, GoAnywhere, Salesforce, SAP</p>
+          <p class="experience-tech">Roles: Integration Lead, Service Design Lead, Event Schema Designer</p>
+        </div>
+        <div class="experience-card">
+          <h3 class="experience-name">Client: Sunsuper</h3>
+          <p class="experience-issuer">2+ years | Brisbane, Australia</p>
+          <p class="experience-tech">Technology Exp: IIB, IBM API Connect, MQ, IBM Secure Gateway, MuleSoft, Solace, GoAnywhere, Salesforce, SAP</p>
+          <p class="experience-tech">Roles: Integration Lead, Service Design Lead, Event Schema Designer</p>
+        </div>
+        <div class="experience-card">
+          <h3 class="experience-name">Client: INTHUB</h3>
+          <p class="experience-issuer">2 years | Brisbane, Australia</p>
+          <p class="experience-tech">Technology Exp: AWS (Cognito, Amplify, EventBridge, Lambda, DynamoDB, API Gateway), React, Flutter, AI (Prompt Engg.), Stripe Connect</p>
+          <p class="experience-tech">Roles: Product Owner/Manager, Service Design & Delivery Lead</p>
+        </div>
+        <div class="experience-card">
+          <h3 class="experience-name">Client: BHP Billiton</h3>
+          <p class="experience-issuer">1 year | Perth, Australia</p>
+          <p class="experience-tech">Technology Exp: IIB, MQ</p>
+          <p class="experience-tech">Roles: Integration Consultant</p>
+        </div>
+        <div class="experience-card">
+          <h3 class="experience-name">Client: Roads and Maritime Services (RMS)</h3>
+          <p class="experience-issuer">8 months | Sydney, Australia</p>
+          <p class="experience-tech">Technology Exp: IIB, MQ</p>
+          <p class="experience-tech">Roles: Integration Consultant</p>
+        </div>
+        <div class="experience-card">
+          <h3 class="experience-name">Client: SAI Global</h3>
+          <p class="experience-issuer">3 months | Sydney, Australia</p>
+          <p class="experience-tech">Technology Exp: IIB, MQ</p>
+          <p class="experience-tech">Roles: Integration Consultant</p>
+        </div>
+        <div class="experience-card">
+          <h3 class="experience-name">Client: Medibank</h3>
+          <p class="experience-issuer">1 year | Melbourne, Australia</p>
+          <p class="experience-tech">Technology Exp: TIBCO</p>
+          <p class="experience-tech">Roles: Senior ESB Consultant</p>
+        </div>
+        <div class="experience-card">
+          <h3 class="experience-name">Client: Coles IT</h3>
+          <p class="experience-issuer">2 years | Melbourne, Australia</p>
+          <p class="experience-tech">Technology Exp: IIB9, WMB & MQ</p>
+          <p class="experience-tech">Roles: Integration Specialist</p>
+        </div>
+        <div class="experience-card">
+          <h3 class="experience-name">Client: Volvo IT</h3>
+          <p class="experience-issuer">1 year | Bangalore, India</p>
+          <p class="experience-tech">Technology Exp: IIB9, WMB & MQ</p>
+          <p class="experience-tech">Roles: Integration Specialist</p>
+        </div>
+        <div class="experience-card">
+          <h3 class="experience-name">Client: Bank of America</h3>
+          <p class="experience-issuer">1 year | Hyderabad, India</p>
+          <p class="experience-tech">Technology Exp: IIB9, WMB & MQ</p>
+          <p class="experience-tech">Roles: Integration Specialist</p>
+        </div>
+        <div class="experience-card">
+          <h3 class="experience-name">Client: IBM India</h3>
+          <p class="experience-issuer">1 year | Pune, India</p>
+          <p class="experience-tech">Technology Exp: WTX, WMB & MQ</p>
+          <p class="experience-tech">Roles: Integration Specialist</p>
+        </div>
+        <div class="experience-card">
+          <h3 class="experience-name">Client: Barclays Bank</h3>
+          <p class="experience-issuer">1 year | Pune, India</p>
+          <p class="experience-tech">Technology Exp: WTX, WMB & MQ</p>
+          <p class="experience-tech">Roles: Integration Specialist</p>
+        </div>
+        <div class="experience-card">
+          <h3 class="experience-name">Client: National Australia Bank (NAB)</h3>
+          <p class="experience-issuer">3.5 years | Melbourne, Australia</p>
+          <p class="experience-tech">Technology Exp: WTX, MQ</p>
+          <p class="experience-tech">Roles: Integration Specialist</p>
+        </div>
+      </div>
+      <!-- <hr class="section-divider" /> -->
+      <p><em>Note: I have good experience working on numerous projects and with a diverse range of clients. Detailed information on specific projects and full Employment History, can be provided upon request. References and Personal/Passport Information are also available upon request. 
+        </em></p>
+    </section>
+
+<!--  <section class="section" id="experience">
       <h2 class="section-title">Experience</h2>
       <div class="timeline-content">
         <div class="experience-item">
@@ -269,7 +368,6 @@ availability_status: "Available for New Engagements"
           <li>Collaborated with Business/Technology stakeholders for process documentation, technical oversight, troubleshooting, vendor product integration, and innovation.</li>
           <li>Created Integration & Solution architecture artifacts, led discovery & design sessions, communicated technology vision.</li>
           <li>Applied Event-Driven Architecture (EDA) principles, mapping data flows, identifying Systems of Record (SOR) and Sources of Truth (SOT).</li>
-         <!-- <li>Developed new integration solutions for Salesforce Commerce Cloud, API Connect, Secure Gateway, IIB, SAP, MuleSoft (3-layered architecture), and Solace (EDA with MuleSoft-Solace connector).</li> -->
           <li>
             Led Integration implementation using MuleSoft/Queuing for an 
             <a href="https://www.itnews.com.au/news/meet-the-mass-market-finalists-in-the-2021-itnews-benchmark-awards-560540" target="_blank">Order Management Project</a> 
@@ -302,12 +400,11 @@ availability_status: "Available for New Engagements"
         <div class="experience-item">
           <h3 class="experience-role-company">
             <span class="role">Product Owner/Manager, Service Design & Delivery Lead</span>
-            <span class="company-details">Client: INTHUB Solutions | <em>&lt;2 years | Brisbane, Australia</em></span>
+            <span class="company-details">Client: INTHUB | <em>&lt;2 years | Brisbane, Australia</em></span>
           </h3>
           <p class="experience-tech"><strong>Technology Stack:</strong> AWS Services (Cognito, Amplify, EventBridge, Lambda, DynamoDB, API Gateway), ReactJS, React Native, Flutter, AI Services (Windsurf, Cursor), Stripe Connect</p>
           <ul class="experience-points">
           <li>As a founding member, led development of an in-house SaaS platform for small business digital customer ordering and order management.</li>
-          <!-- <li><strong>Key (Management) Responsibilities:</strong></li> -->
           <li>Key (Management) Responsibilities:<br/>
           -	Defined Product Vision, Roadmap and go-to market strategy<br/>
           - Conduct Market research and competitor analysis<br/>
@@ -382,14 +479,16 @@ availability_status: "Available for New Engagements"
         </em></p>
       </div>
     </section>
-
-    <section class="section" id="education">
+-->
+    
+<!--    <section class="section" id="education">
       <h2 class="section-title">Education</h2>
       <div class="timeline-content">
         <h3>Bachelor of Engineering (Computer Science)</h3>
         <p>Visvesvaraya Technological University, Belgaum (India) | 2000 - 2004</p>
       </div>
     </section>
+-->
 
   {% assign availability_lower = page.availability_status | downcase %}
   {% unless availability_lower contains "engaged" %}

@@ -260,6 +260,34 @@ body {
   color: var(--dark-gray);
 }
 
+/* Experience Section */
+.experience-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 20px;
+}
+
+.experience-card {
+  background-color: var(--light-gray);
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+}
+
+.experience-name {
+  color: var(--secondary-color);
+  margin-top: 0;
+}
+
+.experience-issuer {
+  color: var(--primary-color);
+  font-weight: 600;
+}
+
+.experience-year {
+  color: var(--dark-gray);
+}
+
 /* Experience & Education */
 .timeline-content {
   max-width: 800px;

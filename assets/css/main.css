@@ -320,6 +320,37 @@ body {
   color: var(--dark-gray);
 }
 
+/* Experience Section */
+.experience-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 20px;
+}
+
+.experience-card {
+  background-color: var(--light-gray);
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 10px rgba(0,0,0,0.08); /* Card shadow */
+  /* gap from .certifications-grid handles spacing */
+}
+
+/* .certification-card:last-child is no longer needed with card layout and grid gap */
+
+.experience-name {
+  color: var(--secondary-color);
+  margin-top: 0;
+}
+
+.experience-issuer {
+  color: var(--primary-color);
+  font-weight: 600;
+}
+
+.experience-year {
+  color: var(--dark-gray);
+}
+
 /* Experience & Education */
 .timeline-content {
   max-width: 800px;
