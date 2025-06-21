@@ -351,10 +351,15 @@ availability_status: "Available for New Engagements"
           <p class="experience-tech">Technology Exp: WTX, MQ</p>
           <p class="experience-tech">Roles: Integration Specialist</p>
         </div>
+        <div class="experience-card">
+          <h3 class="experience-name">Client: Nestlé</h3>
+          <p class="experience-issuer">1 year | Bangalore, India</p>
+          <p class="experience-tech">Technology Exp: WTX, SAP XI, ABAP</p>
+          <p class="experience-tech">Roles: Developer</p>
+        </div>
       </div>
       <!-- <hr class="section-divider" /> -->
-      <p><em>Note: I have good experience working on numerous projects and with a diverse range of clients. Detailed information on specific projects and full Employment History, can be provided upon request. References and Personal/Passport Information are also available upon request. 
-        </em></p>
+      <p><em>Note: I have good experience working on numerous projects and with a diverse range of clients. Detailed information on specific projects and full Employment History, can be provided upon request.</em></p>
     </section>
 
 <!--  <section class="section">
@@ -499,11 +504,12 @@ availability_status: "Available for New Engagements"
   <section class="section hire-me-section" id="hire-me">
     <h2 class="section-title">Hire Me</h2>
     <div class="hire-me-content-wrapper">
-      <p>Looking for an experienced integration architect for your next project? I bring 20+ years of expertise in designing and implementing scalable, reliable integration solutions across industries.</p>
-      <p>Whether you need help with API strategy, microservices architecture, or enterprise integration patterns, I can help you build solutions that drive business value.</p>
-      <a href="https://outlook.office.com/book/HiremeSid@inthub.com.au/" target="_blank" class="btn btn-primary">
+    <p>My expertise spans SOA, ESB, micro-services, event-driven architectures, API-led connectivity and recently with AI assisted developments, with a proven ability to bridge business objectives with technical execution across industries, including R&D teams.</p>
+    <p>I excel in rapidly adapting to new domains and delivering value early in engagements. My blend of technical depth, stakeholder collaboration, and Agile execution ensures alignment between business goals and integration excellence. I'm confident my skills and experience would add immediate value to your organization.</p>
+    <p>Work Location: Onsite @ Brisbane, Australia. Open to other Australian and Worldwide locations based on negotiations (FIFO / Hybrid / Remote / Onsite).</p>
+    <a href="https://outlook.office.com/book/HiremeSid@inthub.com.au/" target="_blank" class="btn btn-primary">
         <i class="fas fa-calendar-check"></i> Book Now
-      </a>
+    </a>
     </div>
   </section>
   {% endunless %}
