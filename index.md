@@ -6,7 +6,7 @@ availability_status: "Available for New Engagements"
 
 <div class="main-container">
 
-    <div class="profile-section">
+    <div class="profile-section" id="profile-section">
       <img src="./assets/images/sid-linked.jpg" alt="Sid" class="profile-image">
       <h1 class="profile-title">Siddharth Shanmugam</h1>
       <h2 class="profile-subtitle">Bridge business needs with technical execution | System Integration | API | EDA</h2>
@@ -21,9 +21,9 @@ availability_status: "Available for New Engagements"
         <a href="https://www.linkedin.com/in/sidshan/" class="contact-item" target="_blank" rel="noopener noreferrer">
           <i class="fab fa-linkedin"></i> LinkedIn
         </a>
-        <a href="https://github.com/sid-inthub" class="contact-item" target="_blank" rel="noopener noreferrer">
+        <!--<a href="https://github.com/sid-inthub" class="contact-item" target="_blank" rel="noopener noreferrer">
   <i class="fab fa-github"></i> GitHub
-</a>
+</a>-->
       </div>
       <div class="profile-availability">
         {{ page.availability_status }}
@@ -158,22 +158,14 @@ availability_status: "Available for New Engagements"
         </div>
         
         <div class="skill-category">
-          <h3 class="category-title">API Design & Management</h3>
+          <h3 class="category-title">API & Languages</h3>
           <ul class="skill-items">
             <li>REST, SOAP, GraphQL, AsyncAPI, gRPC</li>
             <li>API Security: OAuth 2.0, OpenID Connect, SAML, JWT</li>
             <li>API Governance & Lifecycle Management</li>
-          </ul>
-        </div>
-        
-        <div class="skill-category">
-          <h3 class="category-title">Languages & Frameworks</h3>
-          <ul class="skill-items">
-            <li>Java</li>
-            <li>JavaScript</li>
+            <li>Java/JavaScript</li>
             <li>Python</li>
-            <li>ReactJS, React Native</li>
-            <li>Flutter</li>
+            <li>React / Flutter</li>
           </ul>
         </div>
         
@@ -198,6 +190,18 @@ availability_status: "Available for New Engagements"
             <li>TOGAF</li>
           </ul>
         </div>
+
+        <div class="skill-category">
+          <h3 class="category-title">Vendor Products</h3>
+          <ul class="skill-items">
+            <li>Manhattan Active Omni (Order Management)</li>
+            <li>Channel Advisor Marketplace Fanatics Retail</li>
+            <li>Epsilon Loyalty Management</li>
+            <li>Stripe Connect (Payment Processing)</li>
+            <li>Salesforce Commerce Cloud</li>
+          </ul>
+        </div>
+
       </div>
     </section>
 
@@ -353,7 +357,7 @@ availability_status: "Available for New Engagements"
         </em></p>
     </section>
 
-<!--  <section class="section" id="experience">
+<!--  <section class="section">
       <h2 class="section-title">Experience</h2>
       <div class="timeline-content">
         <div class="experience-item">

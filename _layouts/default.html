@@ -9,10 +9,14 @@
   {% seo %}
 </head>
 <body>
+  {% include header.html %}
   <div class="container">
     <main>
-      {{ content }}
+      <div class="main-container">
+    {{ content }}
+  </div>
     </main>
   </div>
+  <script src="{{ '/assets/js/main.js' | relative_url }}"></script>
 </body>
 </html>
