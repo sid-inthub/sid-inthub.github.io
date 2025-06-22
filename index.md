@@ -357,6 +357,11 @@ availability_status: "Available for New Engagements"
           <p class="experience-tech">Technology Exp: WTX, SAP XI, ABAP</p>
           <p class="experience-tech">Roles: Developer</p>
         </div>
+        <div class="experience-card">
+          <h3 class="experience-name">Domain Experience</h3>
+          <!-- <p class="experience-issuer">-----------------------------</p> -->
+          <p class="experience-tech">Banking, Retail, Automative, Transport, Logistics, Superannuation, Manufacturing</p>
+        </div>
       </div>
       <!-- <hr class="section-divider" /> -->
       <p><em>Note: I have good experience working on numerous projects and with a diverse range of clients. Detailed information on specific projects and full Employment History, can be provided upon request.</em></p>
