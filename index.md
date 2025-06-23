@@ -9,7 +9,7 @@ availability_status: "Available for New Engagements"
     <div class="profile-section" id="profile-section">
       <img src="./assets/images/sid-linked.jpg" alt="Sid" class="profile-image">
       <h1 class="profile-title">Siddharth Shanmugam</h1>
-      <h2 class="profile-subtitle">Bridge business needs with technical execution | System Integration | API | EDA</h2>
+      <h2 class="profile-subtitle">Integration Architect | Bridge business needs with technical execution | System Integration | API | EDA</h2>
       <p class="profile-description">
         Results-driven professional with over 20 years of expertise in development, design, and architecture, specializing in Integration and Solution Architecture. Proficient in Application and System Integration for functional and technical projects, with extensive experience in SOA, ESB, microservices, event-driven, and API-driven designs. Demonstrated success in leading large-scale integration projects across domains. <br/>Proven ability to bridge business needs with technical execution, highly skilled at stakeholder engagement, vendor coordination, and driving technical collaborations, including with R&D teams.
         <!-- <br/> <em>Full employment history available upon request.</em> -->
@@ -141,7 +141,7 @@ availability_status: "Available for New Engagements"
             <li>Boomi</li>
             <li>Solace</li>
             <li>AWS Integration Services (API Gateway, SQS, SNS, Lambda)</li>
-            <li><span class="limited-exposure">Limited Exposure:</span> Workato & TIBCO</li>
+            <li>Workato<sup>#</sup>,TIBCO<sup>#</sup></li>
           </ul>
         </div>
         
@@ -149,34 +149,35 @@ availability_status: "Available for New Engagements"
           <h3 class="category-title">Cloud & DevOps</h3>
           <ul class="skill-items">
             <li>AWS (EC2, S3, Lambda, DynamoDB, CloudFormation)</li>
-            <li><span class="limited-exposure">Limited Exposure:</span> Azure (Logic Apps, Functions, API Management, Service Bus)</li>
-            <li><span class="limited-exposure">Limited Exposure:</span> GCP</li>
-            <li><span class="limited-exposure">Limited Exposure:</span> Docker, Kubernetes</li>
-            <li>Jenkins, GitHub Actions</li>
-            <li>Monitoring: Splunk, ELK, Grafana</li>
+            <li>Azure<sup>#</sup>(Logic Apps, Functions, API Management, Service Bus, Event Grid)</li>
+            <li>GCP,Pub/Sub<sup>#</sup></li>
+            <li>Docker, Kubernetes<sup>#</sup></li>
+            <li>Jenkins, GitHub Actions, Maven, Azure DevOps<sup>#</sup>,GitLab CI<sup>#</sup></li>
           </ul>
         </div>
         
         <div class="skill-category">
-          <h3 class="category-title">API & Languages</h3>
+          <h3 class="category-title">API, Languages & Observability</h3>
           <ul class="skill-items">
             <li>REST, SOAP, GraphQL, AsyncAPI, gRPC</li>
             <li>API Security: OAuth 2.0, OpenID Connect, SAML, JWT</li>
             <li>API Governance & Lifecycle Management</li>
-            <li>Java/JavaScript</li>
-            <li>Python</li>
-            <li>React / Flutter</li>
+            <li>Java/JavaScript/Python</li>
+            <li>React<sup>#</sup>, Flutter<sup>#</sup></li>
+            <li>Dynatrace, Splunk, ELK, Grafana, New Relic<sup>#</sup></li>
           </ul>
         </div>
         
         <div class="skill-category">
-          <h3 class="category-title">Databases & OS</h3>
+          <h3 class="category-title">Databases, OS & ERP</h3>
           <ul class="skill-items">
-            <li>Oracle, SQL Server, MySQL</li>
-            <li>MongoDB, DynamoDB</li>
-            <li>Linux, Windows Server</li>
-            <li>IBM Advanced Interactive eXecutive (AIX)</li>
+            <li>Oracle, MS SQL Server, MySQL</li>
+            <li>MongoDB, Amazon DynamoDB</li>
+            <li>Snowflake<sup>#</sup>, Amazon RDS<sup>#</sup>, IBM DB2<sup>#</sup></li>
+            <li>Linux, Windows Server, AIX</li>
+            <!--<li>IBM Advanced Interactive eXecutive (AIX)</li>-->
             <li>Android Play & Apple App Store - Admin</li>
+            <li>SAP R/3, SAP ERP (ECC), SAP CRM, S/4HANA<sup>#</sup></li>            
           </ul>
         </div>
         
@@ -188,6 +189,7 @@ availability_status: "Available for New Engagements"
             <li>Event-Driven Architecture (EDA)</li>
             <li>Domain and Data Driven Design (DDD)</li>
             <li>TOGAF</li>
+            <li>AI Chain of Thought prompting</li>
           </ul>
         </div>
 
@@ -198,15 +200,17 @@ availability_status: "Available for New Engagements"
             <li>Channel Advisor Marketplace Fanatics Retail</li>
             <li>Epsilon Loyalty Management</li>
             <li>Stripe Connect (Payment Processing)</li>
-            <li>Salesforce Commerce Cloud</li>
+            <li>Salesforce Commerce Cloud (SFCC)</li>
+            <li>Salesforce Marketing Cloud (SFMC)</li>
           </ul>
         </div>
 
       </div>
+      <p style="text-align:center;"><em><span class="limited-exposure"><strong>#</strong> = Limited Exposure</span></em></p>
     </section>
 
 <section class="section" id="certifications">
-      <h2 class="section-title">Courses and Certifications</h2>
+      <h2 class="section-title">Courses, Certifications & Education</h2>
       <div class="certifications-grid">
         <div class="certification-card">
           <h3 class="certification-name">Certified: Associate Developer</h3>
@@ -503,7 +507,7 @@ availability_status: "Available for New Engagements"
       </div>
     </section>
 -->
-
+<!--
   {% assign availability_lower = page.availability_status | downcase %}
   {% unless availability_lower contains "engaged" %}
   <section class="section hire-me-section" id="hire-me">
@@ -518,5 +522,5 @@ availability_status: "Available for New Engagements"
     </div>
   </section>
   {% endunless %}
-
+-->
 </div> <!-- End main-container -->
