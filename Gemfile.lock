@@ -303,8 +303,10 @@ DEPENDENCIES
   csv
   github-pages
   jekyll (~> 3.9.3)
+  jekyll-feed
   jekyll-remote-theme
   jekyll-seo-tag
+  jekyll-sitemap
   jekyll-theme-minimal
   webrick (~> 1.8)
 

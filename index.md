@@ -33,43 +33,11 @@ availability_status: "Available for New Engagements"
     <section class="section" id="projects">
       <h2 class="section-title">Key Projects</h2>
       <div class="projects-grid">
-        <div class="project-card">
-          <div class="project-content">
-            <h3 class="project-title">Digital Ordering SaaS Platform</h3>
-            <p class="project-role">Roles: Service Design Lead, Product Manager, AI Prompt Engineer<br></p>
-            <p class="project-client">Client: INTHUB <br/><em>2 years | Brisbane, Australia</em></p>
-            <p class="project-description">Led the development of an in-house SaaS platform designed to empower restaurant-style small businesses with a fully digital customer ordering and order management experience.</p>
-            <div class="project-tech">
-              <span class="tech-tag">ReactJS</span>
-              <span class="tech-tag">React Native</span>
-              <span class="tech-tag">Flutter</span>
-              <span class="tech-tag">Stripe Connect</span>
-              <span class="tech-tag">AWS</span>
-              <span class="tech-tag">AI Prompt Engineering</span>
-              <!-- <span class="tech-tag">Cursor AI</span> -->
-            </div>
-            <div class="project-achievements">
-              <!-- <strong>Key Responsibilities & Achievements:</strong> -->
-              <ul>
-                <li>Defined Product Vision, Roadmap, and go-to-market strategy; conducted market research and competitor analysis.</li>
-                <li>Led the end-to-end product lifecycle from concept and discovery through to development and production rollout.</li>
-                <li>Facilitated product discovery sessions, owned budget management, and led daily stand-ups.</li>
-                <li>Defined product features, service designs, and customer journeys using Jira Product Discovery.</li>
-                <li>Collaborated with Figma UI/UX designers and functional consultants.</li>
-                <li>Led development of ReactJS-based web apps and a Flutter-based mobile application.</li>
-                <li>Architected the solution on AWS (Cognito, Amplify, EventBridge, Lambda, DynamoDB, API Gateway).</li>
-                <li>Scoped and assessed Stripe Connect for marketplace payments.</li>
-                <li>Actively exploring and applying AI tools (Windsurf, Cursor, LangChain, Agentic AI, MCP).</li>
-              </ul>
-            </div>
-          </div>
-        </div>
-
 
         <div class="project-card">
           <div class="project-content">
-            <h3 class="project-title">Integration Modernization & EDA</h3>
-            <p class="project-role">Roles: Integration Lead, Service Design Lead, Event Schema Designer</p>
+            <h3 class="project-title">Integration Competency & EDA</h3>
+            <p class="project-role">Roles: Integration - Architect, Lead</p>
             <p class="project-client">Client: Super Retail Group (SRG)<br/><em>5+ years | Brisbane, Australia</em></p>
             <p class="project-description">Contributed to various high-impact projects - Order Management, Customer and Loyalty programs. Played a key role in the selection and implementation of an EDA platform (Solace).</p>
             <div class="project-tech">
@@ -79,8 +47,9 @@ availability_status: "Available for New Engagements"
               <span class="tech-tag">IBM MQ</span>
               <span class="tech-tag">Solace</span>
               <span class="tech-tag">Salesforce</span>
-              <span class="tech-tag">Agile Delivery</span>
               <span class="tech-tag">SAP</span>
+              <span class="tech-tag">Agile Delivery</span>
+              <span class="tech-tag">API-Led & Data-Led Design</span>
               <!-- <span class="limited-exposure">SAP</span> -->
             </div>
             <div class="project-achievements">
@@ -108,11 +77,10 @@ availability_status: "Available for New Engagements"
             <p class="project-client">Client: Sunsuper<br/><em>3+ years | Brisbane, Australia</em></p>
             <p class="project-description">Facilitated Sunsuper's transition from a .NET-based integration to an IBM integration (IIB, MQ). Provided in-house training to over 75 employees and co-established the ICC.</p>
             <div class="project-tech">
-              <span class="tech-tag">IBM IIB v10</span>
-              <span class="tech-tag">IBM MQ v9</span>
+              <span class="tech-tag">IBM IIB/MQ</span>
+              <span class="tech-tag">Integration Roadmap</span>
               <span class="tech-tag">SOA</span>
               <span class="tech-tag">ESB</span>
-              <span class="tech-tag">Integration Roadmap</span>
               <span class="tech-tag">IBM Integration Training</span>
             </div>
             <div class="project-achievements">
@@ -127,6 +95,38 @@ availability_status: "Available for New Engagements"
             </div>
           </div>
         </div>
+
+        <div class="project-card">
+          <div class="project-content">
+            <h3 class="project-title">Digital Ordering SaaS Platform</h3>
+            <p class="project-role">Roles: Design Lead, Product Manager, AI Prompt Engineer<br></p>
+            <p class="project-client">Client: INTHUB <br/><em>2 years | Brisbane, Australia</em></p>
+            <p class="project-description">Led the development of an in-house SaaS platform designed to empower restaurant-style small businesses with a fully digital customer ordering and order management experience.</p>
+            <div class="project-tech">
+              <span class="tech-tag">React</span>
+              <span class="tech-tag">Flutter</span>
+              <span class="tech-tag">Stripe Connect</span>
+              <span class="tech-tag">AWS</span>
+              <span class="tech-tag">AI Prompt Engineering</span>
+              <!-- <span class="tech-tag">Cursor AI</span> -->
+            </div>
+            <div class="project-achievements">
+              <!-- <strong>Key Responsibilities & Achievements:</strong> -->
+              <ul>
+                <li>Defined Product Vision, Roadmap, and go-to-market strategy; conducted market research and competitor analysis.</li>
+                <li>Led the end-to-end product lifecycle from concept and discovery through to development and production rollout.</li>
+                <li>Facilitated product discovery sessions, owned budget management, and led daily stand-ups.</li>
+                <li>Defined product features, service designs, and customer journeys using Jira Product Discovery.</li>
+                <li>Collaborated with Figma UI/UX designers and functional consultants.</li>
+                <li>Led development of ReactJS-based web apps and a Flutter-based mobile application.</li>
+                <li>Architected the solution on AWS (Cognito, Amplify, EventBridge, Lambda, DynamoDB, API Gateway).</li>
+                <li>Scoped and assessed Stripe Connect for marketplace payments.</li>
+                <li>Actively exploring and applying AI tools (Windsurf, Cursor, LangChain, Agentic AI, MCP).</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
       </div>
     </section>
 
