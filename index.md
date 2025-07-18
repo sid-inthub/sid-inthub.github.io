@@ -280,86 +280,107 @@ availability_status: "Available for New Engagements"
         <div class="experience-card">
           <h3 class="experience-name">Client: Super Retail Group (SRG)</h3>
           <p class="experience-issuer">5+ years | Brisbane, Australia</p>
+          <p class="experience-tech">(Mar ‘18 to Oct ‘23)</p>
           <p class="experience-tech">Technology Exp: IIB, IBM API Connect, MQ, IBM Secure Gateway, MuleSoft, Solace, GoAnywhere, Salesforce, SAP</p>
           <p class="experience-tech">Roles: Integration Lead, Service Design Lead, Event Schema Designer</p>
         </div>
         <div class="experience-card">
           <h3 class="experience-name">Client: Sunsuper</h3>
           <p class="experience-issuer">2+ years | Brisbane, Australia</p>
+          <p class="experience-tech">(Feb ‘15 to Aug ‘15 & Aug '16 to Mar '18)</p>
           <p class="experience-tech">Technology Exp: IIB, IBM API Connect, MQ, IBM Secure Gateway, MuleSoft, Solace, GoAnywhere, Salesforce, SAP</p>
           <p class="experience-tech">Roles: Integration Lead, Service Design Lead, Event Schema Designer</p>
         </div>
         <div class="experience-card">
           <h3 class="experience-name">Client: INTHUB</h3>
           <p class="experience-issuer">2 years | Brisbane, Australia</p>
+          <p class="experience-tech">(Oct ‘23 to date)</p>
           <p class="experience-tech">Technology Exp: AWS (Cognito, Amplify, EventBridge, Lambda, DynamoDB, API Gateway), React, Flutter, AI (Prompt Engg.), Stripe Connect</p>
           <p class="experience-tech">Roles: Product Owner/Manager, Service Design & Delivery Lead</p>
         </div>
         <div class="experience-card">
           <h3 class="experience-name">Client: BHP Billiton</h3>
-          <p class="experience-issuer">1 year | Perth, Australia</p>
+          <p class="experience-issuer"><1 year | Perth, Australia</p>
+          <p class="experience-tech">(Jan ‘14 to Aug '14)</p>
           <p class="experience-tech">Technology Exp: IIB, MQ</p>
           <p class="experience-tech">Roles: Integration Consultant</p>
         </div>
         <div class="experience-card">
           <h3 class="experience-name">Client: Roads and Maritime Services (RMS)</h3>
           <p class="experience-issuer">8 months | Sydney, Australia</p>
+          <p class="experience-tech">(Jan ‘16 to May '16)</p>
           <p class="experience-tech">Technology Exp: IIB, MQ</p>
           <p class="experience-tech">Roles: Integration Consultant</p>
         </div>
         <div class="experience-card">
           <h3 class="experience-name">Client: SAI Global</h3>
           <p class="experience-issuer">3 months | Sydney, Australia</p>
+          <p class="experience-tech">(May ‘16 to Aug '16)</p>
           <p class="experience-tech">Technology Exp: IIB, MQ</p>
           <p class="experience-tech">Roles: Integration Consultant</p>
         </div>
         <div class="experience-card">
           <h3 class="experience-name">Client: Medibank</h3>
-          <p class="experience-issuer">1 year | Melbourne, Australia</p>
+          <p class="experience-issuer"><1 year | Melbourne, Australia</p>
+          <p class="experience-tech">(Oct ‘14 to Feb '15)</p>
           <p class="experience-tech">Technology Exp: TIBCO</p>
           <p class="experience-tech">Roles: Senior ESB Consultant</p>
         </div>
         <div class="experience-card">
           <h3 class="experience-name">Client: Coles IT</h3>
-          <p class="experience-issuer">2 years | Melbourne, Australia</p>
+          <p class="experience-issuer"><2 years | Melbourne, Australia</p>
+          <p class="experience-tech">(Jul ‘12 to Jan '14)</p>
           <p class="experience-tech">Technology Exp: IIB9, WMB & MQ</p>
           <p class="experience-tech">Roles: Integration Specialist</p>
         </div>
         <div class="experience-card">
           <h3 class="experience-name">Client: Volvo IT</h3>
           <p class="experience-issuer">1 year | Bangalore, India</p>
+          <p class="experience-tech">(Aug '11 to Jul '12)</p>
           <p class="experience-tech">Technology Exp: IIB9, WMB & MQ</p>
           <p class="experience-tech">Roles: Integration Specialist</p>
         </div>
         <div class="experience-card">
           <h3 class="experience-name">Client: Bank of America</h3>
           <p class="experience-issuer">1 year | Hyderabad, India</p>
+          <p class="experience-tech">(Nov ‘10 to Jul '11)</p>
           <p class="experience-tech">Technology Exp: IIB9, WMB & MQ</p>
           <p class="experience-tech">Roles: Integration Specialist</p>
         </div>
         <div class="experience-card">
           <h3 class="experience-name">Client: IBM India</h3>
           <p class="experience-issuer">1 year | Pune, India</p>
+          <p class="experience-tech">(Nov ‘09 to Oct '10)</p>
           <p class="experience-tech">Technology Exp: WTX, WMB & MQ</p>
           <p class="experience-tech">Roles: Integration Specialist</p>
         </div>
         <div class="experience-card">
           <h3 class="experience-name">Client: Barclays Bank</h3>
           <p class="experience-issuer">1 year | Pune, India</p>
+          <p class="experience-tech">(Nov ‘09 to Oct '10)</p>
           <p class="experience-tech">Technology Exp: WTX, WMB & MQ</p>
           <p class="experience-tech">Roles: Integration Specialist</p>
         </div>
         <div class="experience-card">
           <h3 class="experience-name">Client: National Australia Bank (NAB)</h3>
           <p class="experience-issuer">3.5 years | Melbourne, Australia</p>
+          <p class="experience-tech">(Jun ‘06 to Sep ‘09)</p>
           <p class="experience-tech">Technology Exp: WTX, MQ</p>
           <p class="experience-tech">Roles: Integration Specialist</p>
         </div>
         <div class="experience-card">
           <h3 class="experience-name">Client: Nestlé</h3>
-          <p class="experience-issuer">1 year | Bangalore, India</p>
+          <p class="experience-issuer">1+ year | Bangalore, India</p>
+          <p class="experience-tech">(May ‘05 to Jun ‘06)</p>          
           <p class="experience-tech">Technology Exp: WTX, SAP XI, ABAP</p>
           <p class="experience-tech">Roles: Developer</p>
+        </div>
+          <div class="experience-card">
+          <h3 class="experience-name">Client: Satyam</h3>
+          <p class="experience-issuer">6 years | India, Australia</p>
+          <p class="experience-tech">(Dec ‘04 to Nov ‘09 & Aug '11 to Jul '12)</p>
+          <p class="experience-tech">Technology Exp: WTX, MQ</p>
+          <p class="experience-tech">Roles: Integration Specialist</p>
         </div>
         <div class="experience-card">
           <h3 class="experience-name">Domain Experience</h3>
