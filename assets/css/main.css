@@ -804,3 +804,152 @@ details.experience-details[open] summary {
   background-color: var(--primary-color);
   color: #1a1d23;
 }
+
+/*
+* SEGMENTED CONTROL (Trello-style Toggle)
+*/
+.tabs-wrapper {
+  max-width: 1000px;
+  margin: 40px auto 20px;
+  padding: 0 20px;
+}
+
+.segmented-control {
+  display: flex;
+  background-color: #f1f3f5;
+  /* Light gray background */
+  border-radius: 8px;
+  padding: 4px;
+  margin-bottom: 30px;
+  position: relative;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Ensure accessible focus outline for keyboard users */
+.segment-btn:focus-visible {
+  outline: 2px solid var(--primary-color);
+  outline-offset: 2px;
+  z-index: 2;
+  /* Bring above other elements */
+}
+
+/* Hide fallback radio buttons visually but keep accessible */
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border-width: 0;
+}
+
+.segment-btn {
+  flex: 1;
+  text-align: center;
+  padding: 10px 15px;
+  font-size: 1rem;
+  font-weight: 600;
+  color: var(--text-muted);
+  background: transparent;
+  border: none;
+  cursor: pointer;
+  border-radius: 6px;
+  transition: all 0.2s ease;
+  font-family: 'Poppins', sans-serif;
+  user-select: none;
+}
+
+.segment-btn:hover {
+  background-color: rgba(255, 255, 255, 0.5);
+  color: var(--text-color);
+}
+
+.segment-btn.active {
+  background-color: var(--card-background);
+  color: var(--primary-color);
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Tab Panels */
+.tab-content {
+  display: none;
+  /* Hidden by default when JS active */
+  animation: fadeIn 0.3s ease-in-out;
+}
+
+.tab-content.active {
+  display: block;
+}
+
+/* Animation for tab switching */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(5px);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Responsive adjustments */
+@media (max-width: 600px) {
+  .segmented-control {
+    flex-direction: column;
+    gap: 5px;
+  }
+
+  .segment-btn {
+    width: 100%;
+    padding: 12px;
+  }
+
+  /* Keep active tab distinct on mobile */
+  .segment-btn.active {
+    background-color: white;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+}
+
+/* Dark mode overrides for tabs */
+[data-theme="dark"] .segmented-control {
+  background-color: #2d3748;
+  /* Darker background for control container */
+}
+
+[data-theme="dark"] .segment-btn {
+  color: var(--text-muted);
+}
+
+[data-theme="dark"] .segment-btn:hover {
+  background-color: rgba(255, 255, 255, 0.1);
+  color: var(--text-color);
+}
+
+[data-theme="dark"] .segment-btn.active {
+  background-color: #1a1d23;
+  /* Dark background for active tab */
+  color: var(--primary-color);
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+/* Fallback for when JS is disabled: show all panels */
+.tab-content {
+  display: block;
+  /* Default to visible */
+}
+
+.js-tabs-initialized .tab-content {
+  display: none;
+  /* Hide when JS takes over */
+}
+
+.js-tabs-initialized .tab-content.active {
+  display: block;
+}
