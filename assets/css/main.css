@@ -1,8 +1,7 @@
 /*
- * MODERN UI REFRESH
- * Font Imports, Color Palette, and Global Styles
- */
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&family=Open+Sans:wght@400;600&display=swap');
+* MODERN UI REFRESH
+* Color Palette, and Global Styles
+*/
 
 :root {
   --primary-color: #007bff;
@@ -27,6 +26,10 @@
   --border-color: #4a5568;
   --header-background: rgba(26, 29, 35, 0.95);
   --hover-color: #4a5568;
+}
+
+html {
+  scroll-behavior: smooth;
 }
 
 body {
@@ -60,7 +63,12 @@ a:hover {
   color: #a5d8ff;
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
   font-family: 'Poppins', sans-serif;
   font-weight: 600;
   color: var(--secondary-color);
@@ -115,11 +123,12 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 /*
- * SECTION STYLING
- */
+* SECTION STYLING
+*/
 .section {
   padding: 80px 0;
   border-bottom: 1px solid var(--border-color);
+  scroll-margin-top: 80px;
 }
 
 .section:last-child {
@@ -154,8 +163,8 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 /*
- * PROFILE SECTION
- */
+* PROFILE SECTION
+*/
 .profile-section {
   display: flex;
   flex-direction: column;
@@ -232,15 +241,21 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 /*
- * CARD-BASED LAYOUTS (Projects, Certifications, Skills, etc.)
- */
-.projects-grid, .certifications-grid, .skills-container, .experience-grid {
+* CARD-BASED LAYOUTS (Projects, Certifications, Skills, etc.)
+*/
+.projects-grid,
+.certifications-grid,
+.skills-container,
+.experience-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(340px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(340px, 1fr));
   gap: 25px;
 }
 
-.project-card, .certification-card, .skill-category, .experience-card {
+.project-card,
+.certification-card,
+.skill-category,
+.experience-card {
   background-color: var(--card-background);
   border: 1px solid var(--border-color);
   border-radius: 12px;
@@ -249,7 +264,10 @@ h1, h2, h3, h4, h5, h6 {
   transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
-.project-card:hover, .certification-card:hover, .skill-category:hover, .experience-card:hover {
+.project-card:hover,
+.certification-card:hover,
+.skill-category:hover,
+.experience-card:hover {
   transform: translateY(-5px);
   box-shadow: 0 8px 20px rgba(0, 0, 0, 0.08);
 }
@@ -354,8 +372,8 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 /*
- * HIRE ME SECTION
- */
+* HIRE ME SECTION
+*/
 .hire-me-content-wrapper {
   background-color: var(--card-background);
   padding: 50px;
@@ -392,8 +410,8 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 /*
- * OLD EXPERIENCE SECTION (TIMELINE-LIKE) - Kept for potential future use
- */
+* OLD EXPERIENCE SECTION (TIMELINE-LIKE) - Kept for potential future use
+*/
 .timeline-content {
   max-width: 800px;
   margin: 0 auto;
@@ -564,17 +582,21 @@ body.nav-open {
 
 
 /*
- * RESPONSIVE DESIGN
- */
+* RESPONSIVE DESIGN
+*/
 @media (max-width: 768px) {
-  .projects-grid, .skills-container, .certifications-grid, .experience-grid {
+
+  .projects-grid,
+  .skills-container,
+  .certifications-grid,
+  .experience-grid {
     grid-template-columns: 1fr;
   }
-  
+
   .profile-section {
     padding: 40px 15px;
   }
-  
+
   .profile-title {
     font-size: 2.25rem;
   }
@@ -582,7 +604,7 @@ body.nav-open {
   .profile-subtitle {
     font-size: 1.1rem;
   }
-  
+
   .section {
     padding: 50px 0;
   }
@@ -590,7 +612,7 @@ body.nav-open {
   .section-title {
     font-size: 1.8rem;
   }
-  
+
   .hire-me-content-wrapper {
     padding: 30px;
   }
@@ -612,7 +634,7 @@ body.nav-open {
     justify-content: center;
     align-items: center;
     transition: right 0.35s ease-in-out;
-    box-shadow: -2px 0 10px rgba(0,0,0,0.1);
+    box-shadow: -2px 0 10px rgba(0, 0, 0, 0.1);
     transform: none;
     left: auto;
   }
@@ -640,4 +662,294 @@ body.nav-open {
   .nav-toggle.nav-active .nav-toggle-icon::after {
     transform: translateY(0) rotate(-45deg);
   }
+}
+
+/*
+* TIMELINE EXPERIENCE SECTION
+*/
+.timeline-container {
+  position: relative;
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px 0;
+}
+
+/* Vertical line */
+.timeline-container::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 20px;
+  /* Aligns with the circles */
+  width: 2px;
+  background-color: var(--border-color);
+}
+
+.timeline-item {
+  position: relative;
+  margin-bottom: 40px;
+  padding-left: 60px;
+  /* Space for line and dots */
+}
+
+/* Timeline Dot */
+.timeline-item::before {
+  content: '';
+  position: absolute;
+  left: 11px;
+  /* Center on the 2px line at left:20px */
+  top: 0;
+  width: 16px;
+  height: 16px;
+  border-radius: 50%;
+  background-color: var(--card-background);
+  border: 3px solid var(--primary-color);
+  z-index: 1;
+}
+
+.timeline-content-card {
+  background-color: var(--card-background);
+  border: 1px solid var(--border-color);
+  border-radius: 12px;
+  padding: 25px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.timeline-content-card:hover {
+  transform: translateX(5px);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.08);
+}
+
+/*
+* EXPANDABLE DETAILS (Progressive Disclosure)
+*/
+details.experience-details {
+  margin-top: 15px;
+  border-top: 1px solid var(--border-color);
+  padding-top: 15px;
+}
+
+details.experience-details summary {
+  cursor: pointer;
+  font-weight: 600;
+  color: var(--primary-color);
+  list-style: none;
+  /* Hide default triangle */
+  position: relative;
+  padding-left: 20px;
+  outline: none;
+}
+
+details.experience-details summary::-webkit-details-marker {
+  display: none;
+}
+
+/* Custom indicator */
+details.experience-details summary::before {
+  content: '▶';
+  font-size: 0.8em;
+  position: absolute;
+  left: 0;
+  top: 2px;
+  transition: transform 0.2s ease;
+}
+
+details.experience-details[open] summary::before {
+  transform: rotate(90deg);
+}
+
+details.experience-details[open] summary {
+  margin-bottom: 15px;
+}
+
+/*
+* SKILLS PILLS
+*/
+.skill-items.pills {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-top: 15px;
+}
+
+.skill-items.pills li {
+  border: 1px solid var(--border-color);
+  background-color: var(--background-color);
+  border-radius: 50px;
+  padding: 6px 16px;
+  font-size: 0.9rem;
+  font-weight: 500;
+  transition: all 0.2s ease;
+}
+
+.skill-items.pills li:hover {
+  background-color: var(--primary-color);
+  color: white;
+  border-color: var(--primary-color);
+  transform: translateY(-2px);
+}
+
+/* Dark mode adjustments for new elements */
+[data-theme="dark"] .timeline-container::before {
+  background-color: var(--border-color);
+}
+
+[data-theme="dark"] .skill-items.pills li {
+  background-color: var(--card-background);
+}
+
+[data-theme="dark"] .skill-items.pills li:hover {
+  background-color: var(--primary-color);
+  color: #1a1d23;
+}
+
+/*
+* SEGMENTED CONTROL (Trello-style Toggle)
+*/
+.tabs-wrapper {
+  max-width: 1000px;
+  margin: 40px auto 20px;
+  padding: 0 20px;
+}
+
+.segmented-control {
+  display: flex;
+  background-color: #f1f3f5;
+  /* Light gray background */
+  border-radius: 8px;
+  padding: 4px;
+  margin-bottom: 30px;
+  position: relative;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Ensure accessible focus outline for keyboard users */
+.segment-btn:focus-visible {
+  outline: 2px solid var(--primary-color);
+  outline-offset: 2px;
+  z-index: 2;
+  /* Bring above other elements */
+}
+
+/* Hide fallback radio buttons visually but keep accessible */
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border-width: 0;
+}
+
+.segment-btn {
+  flex: 1;
+  text-align: center;
+  padding: 10px 15px;
+  font-size: 1rem;
+  font-weight: 600;
+  color: var(--text-muted);
+  background: transparent;
+  border: none;
+  cursor: pointer;
+  border-radius: 6px;
+  transition: all 0.2s ease;
+  font-family: 'Poppins', sans-serif;
+  user-select: none;
+}
+
+.segment-btn:hover {
+  background-color: rgba(255, 255, 255, 0.5);
+  color: var(--text-color);
+}
+
+.segment-btn.active {
+  background-color: var(--card-background);
+  color: var(--primary-color);
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Tab Panels */
+.tab-content {
+  display: none;
+  /* Hidden by default when JS active */
+  animation: fadeIn 0.3s ease-in-out;
+}
+
+.tab-content.active {
+  display: block;
+}
+
+/* Animation for tab switching */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(5px);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Responsive adjustments */
+@media (max-width: 600px) {
+  .segmented-control {
+    flex-direction: column;
+    gap: 5px;
+  }
+
+  .segment-btn {
+    width: 100%;
+    padding: 12px;
+  }
+
+  /* Keep active tab distinct on mobile */
+  .segment-btn.active {
+    background-color: white;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+}
+
+/* Dark mode overrides for tabs */
+[data-theme="dark"] .segmented-control {
+  background-color: #2d3748;
+  /* Darker background for control container */
+}
+
+[data-theme="dark"] .segment-btn {
+  color: var(--text-muted);
+}
+
+[data-theme="dark"] .segment-btn:hover {
+  background-color: rgba(255, 255, 255, 0.1);
+  color: var(--text-color);
+}
+
+[data-theme="dark"] .segment-btn.active {
+  background-color: #1a1d23;
+  /* Dark background for active tab */
+  color: var(--primary-color);
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+/* Fallback for when JS is disabled: show all panels */
+.tab-content {
+  display: block;
+  /* Default to visible */
+}
+
+.js-tabs-initialized .tab-content {
+  display: none;
+  /* Hide when JS takes over */
+}
+
+.js-tabs-initialized .tab-content.active {
+  display: block;
 }
