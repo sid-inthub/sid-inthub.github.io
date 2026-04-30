@@ -8,5 +8,5 @@ _site/
 vendor/
 # MacOS
 .DS_Store
-local_only/
-docs-local/
+#local_only/
+#docs-local/

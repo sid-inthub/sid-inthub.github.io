@@ -1,0 +1,408 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Siddharth Shanmugam — Resume</title>
+    <style>
+        @page {
+            size: A4;
+            margin: 14mm 14mm 14mm 14mm;
+        }
+
+        * {
+            box-sizing: border-box;
+        }
+
+        :root {
+            --c-text: #1a1a1a;
+            --c-muted: #555;
+            --c-accent: #0a3d62;
+            --c-rule: #d6dbe0;
+            --c-bg-tag: #eef3f8;
+            --c-tag-text: #0a3d62;
+        }
+
+        html,
+        body {
+            margin: 0;
+            padding: 0;
+            color: var(--c-text);
+            font-family: -apple-system, BlinkMacSystemFont, "Helvetica Neue", Helvetica, Arial, sans-serif;
+            font-size: 10.5pt;
+            line-height: 1.42;
+            -webkit-print-color-adjust: exact;
+            print-color-adjust: exact;
+        }
+
+        .page {
+            max-width: 200mm;
+            margin: 0 auto;
+            padding: 14mm 14mm;
+        }
+
+        @media print {
+            .page {
+                padding: 0;
+                max-width: none;
+            }
+        }
+
+        /* Header */
+        .header {
+            border-bottom: 2px solid var(--c-accent);
+            padding-bottom: 10px;
+            margin-bottom: 14px;
+        }
+
+        h1 {
+            font-size: 22pt;
+            font-weight: 700;
+            margin: 0 0 2px 0;
+            letter-spacing: -0.3px;
+            color: var(--c-accent);
+        }
+
+        .role-title {
+            font-size: 12pt;
+            font-weight: 600;
+            color: var(--c-text);
+            margin: 0 0 2px 0;
+        }
+
+        .tags-line {
+            font-size: 9.5pt;
+            color: var(--c-muted);
+            margin: 0 0 8px 0;
+        }
+
+        .contact-line {
+            font-size: 9.5pt;
+            color: var(--c-muted);
+            margin: 0 0 4px 0;
+        }
+
+        .contact-line a {
+            color: var(--c-accent);
+            text-decoration: none;
+        }
+
+        .availability {
+            font-size: 9pt;
+            font-style: italic;
+            color: var(--c-muted);
+            margin: 4px 0 0 0;
+        }
+
+        /* Section headings */
+        h2 {
+            font-size: 11.5pt;
+            font-weight: 700;
+            color: var(--c-accent);
+            text-transform: uppercase;
+            letter-spacing: 0.6px;
+            margin: 14px 0 6px 0;
+            padding-bottom: 3px;
+            border-bottom: 1px solid var(--c-rule);
+        }
+
+        h3 {
+            font-size: 11pt;
+            font-weight: 700;
+            margin: 8px 0 1px 0;
+            color: var(--c-text);
+        }
+
+        .role-line {
+            font-size: 10pt;
+            font-weight: 600;
+            margin: 0;
+            color: var(--c-text);
+        }
+
+        .meta-line {
+            font-size: 9.5pt;
+            font-style: italic;
+            color: var(--c-muted);
+            margin: 0 0 4px 0;
+        }
+
+        p {
+            margin: 0 0 6px 0;
+        }
+
+        ul {
+            margin: 4px 0 6px 0;
+            padding-left: 18px;
+        }
+
+        li {
+            margin-bottom: 2px;
+        }
+
+        .competency-list {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+        }
+
+        .competency-list li {
+            margin-bottom: 4px;
+            padding-left: 0;
+        }
+
+        .competency-label {
+            font-weight: 700;
+            color: var(--c-text);
+        }
+
+        .tech-stack {
+            font-size: 9.5pt;
+            font-style: italic;
+            color: var(--c-muted);
+            margin: 4px 0 8px 0;
+        }
+
+        .earlier-roles li {
+            margin-bottom: 2px;
+            font-size: 9.5pt;
+        }
+
+        .earlier-note {
+            font-size: 9pt;
+            font-style: italic;
+            color: var(--c-muted);
+            margin-top: 4px;
+        }
+
+        .two-col {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 12px;
+        }
+
+        .two-col h2 {
+            margin-top: 0;
+        }
+
+        .experience-entry {
+            page-break-inside: avoid;
+            break-inside: avoid;
+            margin-bottom: 8px;
+        }
+
+        .section-block {
+            page-break-inside: avoid;
+            break-inside: avoid;
+        }
+
+        strong {
+            color: var(--c-text);
+        }
+
+        code {
+            font-family: "SF Mono", Menlo, Consolas, monospace;
+            font-size: 9pt;
+            background: var(--c-bg-tag);
+            color: var(--c-tag-text);
+            padding: 0 4px;
+            border-radius: 3px;
+        }
+
+        a {
+            color: var(--c-accent);
+        }
+    </style>
+</head>
+
+<body>
+    <div class="page">
+
+        <!-- Header -->
+        <div class="header">
+            <h1>Siddharth Shanmugam</h1>
+            <p class="role-title">Solution Architect &amp; AI-Leveraged Product Builder</p>
+            <p class="tags-line">Cloud-Native &middot; Integration &middot; Event-Driven Architecture &middot;
+                Multi-Agent AI Delivery</p>
+            <p class="contact-line">
+                <a href="mailto:sid.shan@outlook.com">sid.shan@outlook.com</a>
+                &nbsp;&middot;&nbsp;
+                <a href="https://www.linkedin.com/in/sidshan/">linkedin.com/in/sidshan</a>
+                &nbsp;&middot;&nbsp;
+                <a href="https://sid-inthub.github.io">sid-inthub.github.io</a>
+                &nbsp;&middot;&nbsp;
+                Brisbane, Australia
+            </p>
+            <p class="availability">Open to advisory, partnerships, and architecture engagements.</p>
+        </div>
+
+        <!-- Summary -->
+        <div class="section-block">
+            <h2>Professional Summary</h2>
+            <p>20+ years across development, design, and architecture &mdash; specialising in integration, event-driven,
+                and API-led design. Currently leading INTHUB&rsquo;s flagship venture, <strong>CliqMenu</strong>, a
+                multi-module SaaS platform shipping commercially in May 2026. Designs and ships cloud-native serverless
+                architecture end-to-end (AWS, Terraform, AppSync, EventBridge, Lambda, DynamoDB) across web (React) and
+                mobile (Flutter), with <strong>AI as a core delivery practice</strong> &mdash; not a side experiment.
+                Bridges deep enterprise integration heritage (MuleSoft, IBM, Solace) with modern AI-orchestrated
+                multi-agent product delivery.</p>
+        </div>
+
+        <!-- Core Competencies -->
+        <div class="section-block">
+            <h2>Core Competencies</h2>
+            <ul class="competency-list">
+                <li><span class="competency-label">Cloud-Native &amp; Serverless</span> &mdash; AWS Serverless (Lambda,
+                    DynamoDB, AppSync, EventBridge, Cognito, API Gateway, Amplify, S3+CloudFront), Terraform IaC,
+                    multi-environment deploys (sandbox / dev / test / prod)</li>
+                <li><span class="competency-label">AI-Leveraged Delivery</span> &mdash; Multi-agent orchestration (Claude
+                    Code, MCP, agent SDKs, hooks); context engineering for AI agents (functional / business / data-flow
+                    contexts); feature-based AI workflows; prompt engineering &amp; Chain-of-Thought (applied in
+                    production)</li>
+                <li><span class="competency-label">Front-End</span> &mdash; React (Vite, TypeScript, Bootstrap), Flutter
+                    (multi-platform; TestFlight + Play Store releases); architect-level with AI-assisted implementation
+                </li>
+                <li><span class="competency-label">Integration Platforms &amp; API</span> &mdash; MuleSoft, IBM Suite
+                    (IIB, ACE, MQ, API Connect, DataPower), Boomi, Solace; AWS-native integration (API Gateway,
+                    EventBridge, AppSync, SQS, SNS)</li>
+                <li><span class="competency-label">API &amp; Languages</span> &mdash; REST, SOAP, GraphQL, AsyncAPI,
+                    gRPC; OAuth 2.0, OpenID Connect, SAML, JWT; Java, JavaScript, Python, TypeScript</li>
+                <li><span class="competency-label">Methodologies &amp; Architecture</span> &mdash; Event-Driven
+                    Architecture (EDA), Domain-Driven Design (DDD), AI-Orchestrated Multi-Agent Delivery, Agile (Scrum,
+                    Kanban), TDD, BDD, TOGAF</li>
+                <li><span class="competency-label">Vendor Products</span> &mdash; Manhattan Active Omni, Stripe Connect,
+                    Salesforce Commerce Cloud, Salesforce Marketing Cloud, Channel Advisor, Epsilon Loyalty</li>
+                <li><span class="competency-label">Observability</span> &mdash; Dynatrace, Splunk, ELK, Grafana</li>
+            </ul>
+        </div>
+
+        <!-- Professional Experience -->
+        <h2>Professional Experience</h2>
+
+        <div class="experience-entry">
+            <h3>INTHUB &mdash; CliqMenu Venture</h3>
+            <p class="role-line">Founder &amp; Product Owner &middot; Solution Architect &middot; AI-Orchestrated
+                Delivery Lead</p>
+            <p class="meta-line">Oct 2023 &ndash; Present &middot; Brisbane, Australia</p>
+            <ul>
+                <li>Founded INTHUB&rsquo;s flagship venture <strong>CliqMenu</strong> &mdash; a five-module SaaS
+                    platform for food service (food trucks &rarr; restaurants); commercial launch May 2026 in AU/NZ,
+                    India activation late June 2026.</li>
+                <li>Architected cloud-native serverless platform: AppSync + DynamoDB + Lambda + EventBridge,
+                    Terraform-managed across sandbox / dev / test / prod environments.</li>
+                <li>Established AI-orchestrated multi-agent delivery workflow across the full product estate &mdash;
+                    covering implementation, refactor, code review, and cross-repo investigation.</li>
+                <li>Practiced context engineering for AI agents &mdash; maintaining functional, business, and data-flow
+                    contexts so AI delivery stays grounded in the product.</li>
+                <li>Shipped Flutter OMS to Apple TestFlight and Google Play Store with Fastlane-based release pipeline
+                    and staged release notes.</li>
+                <li>Defined product vision, roadmap, and go-to-market strategy; led pilot prep and stakeholder
+                    alignment.</li>
+                <li>Branch-based PR-promotion CI/CD model (<code>aidev</code> &rarr; <code>dev</code> &rarr;
+                    <code>test</code> &rarr; <code>main</code>) across web + mobile.</li>
+            </ul>
+            <p class="tech-stack"><strong>Tech:</strong> AWS Serverless (Lambda, DynamoDB, AppSync, EventBridge, Cognito,
+                API Gateway, Amplify, S3+CloudFront), Terraform, React (Vite), Flutter, Stripe Connect, Claude Code, MCP
+            </p>
+        </div>
+
+        <div class="experience-entry">
+            <h3>Super Retail Group (SRG)</h3>
+            <p class="role-line">Integration Lead &middot; Service Design Lead &middot; Event Schema Designer</p>
+            <p class="meta-line">Mar 2018 &ndash; Oct 2023 &middot; Brisbane, Australia</p>
+            <ul>
+                <li>Co-led migration from IBM stack (API Connect, IIB, MQ) to MuleSoft, Anypoint MQ, and Solace.</li>
+                <li>Played a key role in the selection and implementation of an EDA platform (Solace).</li>
+                <li>Applied Event-Driven Architecture principles, mapping data flows and identifying Systems of Record
+                    (SOR / SOT).</li>
+                <li>Led Integration implementation for an Order Management Project that won the <strong>IT News Mass
+                        Market Award 2021</strong>.</li>
+                <li>Developed new integration solutions across Salesforce Commerce Cloud, API Connect, IIB, SAP,
+                    MuleSoft, and Solace (event-driven via MuleSoft&ndash;Solace connector).</li>
+                <li>Created Integration &amp; Solution architecture artifacts and led discovery &amp; design sessions
+                    across Order Management, Customer, and Loyalty programs.</li>
+            </ul>
+            <p class="tech-stack"><strong>Tech:</strong> MuleSoft, Solace, IBM IIB, API Connect, MQ, Salesforce, SAP,
+                GoAnywhere</p>
+        </div>
+
+        <div class="experience-entry">
+            <h3>Sunsuper</h3>
+            <p class="role-line">Integration Delivery Lead &middot; Principal Integration Advisor</p>
+            <p class="meta-line">Feb 2015 &ndash; Aug 2015 &amp; Aug 2016 &ndash; Mar 2018 &middot; Brisbane, Australia
+            </p>
+            <ul>
+                <li>Co-led greenfield implementation, facilitating transition from Microsoft to IBM integration stack
+                    (IIB, MQ).</li>
+                <li>Co-established the Integration Competency Centre (ICC) to implement ESB using IIB and MQ.</li>
+                <li>Contributed to the Integration Governance Framework and standardised Estimation Model.</li>
+                <li>Developed Integration Roadmaps aligned with future-state strategy.</li>
+                <li>Delivered SOA, ESB, IBM (IIB &amp; MQ) training to 75+ employees with diverse backgrounds.</li>
+            </ul>
+            <p class="tech-stack"><strong>Tech:</strong> IBM IIB, MQ, SOA, ESB</p>
+        </div>
+
+        <div class="experience-entry">
+            <h3>Earlier Roles (2004 &ndash; 2016)</h3>
+            <ul class="earlier-roles">
+                <li><strong>Roads and Maritime Services (RMS)</strong> &mdash; Integration Technical Lead (IBM IIB, MQ)
+                    &middot; Jan 2016 &ndash; May 2016 &middot; Sydney</li>
+                <li><strong>Medibank</strong> &mdash; Senior ESB Consultant (TIBCO) &middot; Oct 2014 &ndash; Feb 2015
+                    &middot; Melbourne</li>
+                <li><strong>BHP Billiton</strong> &mdash; Integration Consultant &amp; Advisor (IBM IIB, MQ) &middot;
+                    Jan 2014 &ndash; Aug 2014 &middot; Perth</li>
+                <li><strong>Coles IT</strong> &mdash; Integration Specialist (IIB9, WMB, MQ) &middot; Jul 2012 &ndash;
+                    Jan 2014 &middot; Melbourne</li>
+                <li><strong>Volvo IT</strong> &mdash; Integration Specialist (IIB9, WMB, MQ) &middot; Aug 2011 &ndash;
+                    Jul 2012</li>
+                <li><strong>Bank of America</strong> &mdash; Integration Specialist &middot; Nov 2010 &ndash; Jul 2011
+                </li>
+                <li><strong>IBM India / Barclays</strong> &mdash; Integration Specialist (WTX, WMB, MQ) &middot; Nov
+                    2009 &ndash; Oct 2010</li>
+                <li><strong>National Australia Bank (NAB)</strong> &mdash; Integration Specialist (WTX, MQ) &middot; Jun
+                    2006 &ndash; Sep 2009</li>
+                <li><strong>Nestl&eacute; / Satyam</strong> &mdash; Early career developer (SAP / WTX / MQ) &middot;
+                    2004 &ndash; 2006</li>
+            </ul>
+            <p class="earlier-note">Detailed full employment history available upon request.</p>
+        </div>
+
+        <!-- Education + Certifications -->
+        <div class="two-col">
+            <div class="section-block">
+                <h2>Education</h2>
+                <p style="margin: 0;"><strong>Bachelor of Engineering (Computer Science)</strong></p>
+                <p class="meta-line" style="margin: 0;">Visvesvaraya Technological University, Belgaum (India) &middot;
+                    2000 &ndash; 2004</p>
+
+                <h2 style="margin-top: 14px;">Certifications</h2>
+                <ul style="margin-top: 4px;">
+                    <li><strong>Boomi</strong> &mdash; Associate Developer, Professional Developer, Professional
+                        Architect</li>
+                    <li><strong>Workato</strong> &mdash; Automation Pro I</li>
+                    <li><strong>The Open Group</strong> &mdash; TOGAF 9 Foundation (Cert# 74674)</li>
+                    <li><strong>IBM</strong> &mdash; WTX Developer V8.2</li>
+                    <li><strong>SAP Labs, NetWeaver</strong> &mdash; SAP Consultant XI 3.0</li>
+                </ul>
+            </div>
+
+            <div class="section-block">
+                <h2>Training &amp; Courses</h2>
+                <ul style="margin-top: 4px;">
+                    <li><strong>MuleSoft</strong> &mdash; Mule 4 Development</li>
+                    <li><strong>AWS</strong> &mdash; Cloud Practitioner</li>
+                    <li><strong>Workato</strong> &mdash; Automation Pro I, II</li>
+                    <li><strong>The Open Group</strong> &mdash; TOGAF 9.1</li>
+                    <li><strong>IBM</strong> &mdash; IIB / WMB Developer; DataPower XI50 / XI52</li>
+                    <li><strong>Self-directed AI practice</strong> &mdash; Multi-agent orchestration, context
+                        engineering, feature-based AI workflows, prompt engineering (Claude Code, MCP, Cursor, Windsurf,
+                        LangChain)</li>
+                </ul>
+            </div>
+        </div>
+
+    </div>
+</body>
+
+</html>
