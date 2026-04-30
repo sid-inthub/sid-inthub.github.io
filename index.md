@@ -1,7 +1,7 @@
 ---
 layout: default
-title: Sid - Integration & Solution Architect
-availability_status: "Available for New Engagements"
+title: Sid - Solution Architect & AI-Leveraged Product Builder
+availability_status: "Open to advisory, partnerships, and architecture engagements"
 ---
 
 {% include section-profile.html %}
