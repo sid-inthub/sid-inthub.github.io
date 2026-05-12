@@ -1,81 +1,66 @@
-# Sid's Portfolio Website
+# sid-inthub.github.io — Phase 1 portfolio (maintenance)
 
-A professional portfolio website built with Jekyll and GitHub Pages.
+Personal portfolio site for **Siddharth Shanmugam** — Solution Architect & AI-Leveraged Product Builder, founder of CliqMenu (INTHUB).
 
-## Overview
+Built with **Jekyll** and deployed via **GitHub Pages**.
 
-This repository contains a personal portfolio website showcasing skills, projects, experience, and education. The site is built with Jekyll and deployed using GitHub Pages.
+- **Live:** https://sid-inthub.github.io/
+- **Status:** Phase 1 — maintenance only. The active personal site is **Phase 2**, [`sid-inthub-profile`](https://github.com/INTHUB/sid-inthub-profile) (Next.js 16), live at [sid.inthub.com.au](https://sid.inthub.com.au) since 2026-05-09.
 
-## Local Development
+For system design, see [`ARCHITECTURE.md`](ARCHITECTURE.md). For Claude Code working agreements, see [`.claude/CLAUDE.md`](.claude/CLAUDE.md).
+
+## Local development
 
 ### Prerequisites
 
-- Ruby (version 2.5.0 or higher)
-- RubyGems
+- Ruby (system Ruby on macOS works; rbenv/asdf also fine)
 - Bundler
 
 ### Setup
 
-1. Clone this repository:
-   ```
-   git clone https://github.com/sid-inthub/sid-inthub.github.io.git
-   cd sid-inthub.github.io
-   ```
+```bash
+git clone https://github.com/sid-inthub/sid-inthub.github.io.git
+cd sid-inthub.github.io
+bundle install
+bundle exec jekyll serve
+```
 
-2. Install dependencies:
-   ```
-   bundle install
-   ```
+Open http://localhost:4000.
 
-3. Run the site locally:
-   ```
-   bundle exec jekyll serve
-   ```
+## Where to edit what
 
-4. Visit `http://localhost:4000` in your browser to view the site.
+| Change                                | File                                    |
+| ------------------------------------- | --------------------------------------- |
+| Profile name, headline, bio, contacts | `_includes/section-profile.html`        |
+| Projects                              | `_includes/section-projects.html`       |
+| Skills                                | `_includes/section-skills.html`         |
+| Certifications & education            | `_includes/section-certifications.html` |
+| Experience                            | `_includes/section-experience.html`     |
+| Header nav, theme toggle button       | `_includes/header.html`                 |
+| Colors, layout, spacing               | `assets/css/main.css`                   |
+| Tab / theme / nav behavior            | `assets/js/main.js`                     |
+| Site title, SEO description           | `_config.yml`                           |
 
-## Customization
-
-### Content
-
-To update your portfolio content, edit the `index.md` file. This file contains all the content sections including:
-
-- Profile information
-- Projects
-- Skills
-- Certifications
-- Experience
-- Education
-
-### Styling
-
-The styles are defined in `/assets/css/style.scss`. You can modify colors, spacing, and layout by editing this file.
-
-### Profile Image
-
-Replace the placeholder image at `/assets/images/profile-placeholder.jpg` with your own profile picture.
+`index.md` is a thin shell that pulls these partials together. You rarely need to edit it.
 
 ## Deployment
 
-This site automatically deploys to GitHub Pages when changes are pushed to the main branch. The deployment is handled by the GitHub Actions workflow defined in `.github/workflows/jekyll-gh-pages.yml`.
+GitHub Pages deploys automatically on push to `main` via [`.github/workflows/jekyll-gh-pages.yml`](.github/workflows/jekyll-gh-pages.yml).
 
-To deploy:
+Branch model:
 
-1. Commit your changes:
-   ```
-   git add .
-   git commit -m "Update portfolio content"
-   ```
+- `aidev` — working branch. All commits land here first.
+- `main` — deploy branch. Manually open a PR from `aidev` → `main` and merge to deploy.
 
-2. Push to GitHub:
-   ```
-   git push origin main
-   ```
+There is **no auto-promote workflow** in this repo. Deploys are intentionally gated by a manual PR merge.
 
-3. GitHub Actions will automatically build and deploy your site to GitHub Pages.
+## Stack
 
-4. Your site will be available at `https://sid-inthub.github.io`.
+- Jekyll 3.9.3
+- Remote theme: [`pages-themes/minimal@v0.2.0`](https://github.com/pages-themes/minimal) — heavily overridden by local CSS
+- kramdown Markdown processor
+- Plugins: `jekyll-remote-theme`, `jekyll-seo-tag`
 
 ## License
 
-This project is open source and available under the [MIT License](LICENSE).
+MIT.
