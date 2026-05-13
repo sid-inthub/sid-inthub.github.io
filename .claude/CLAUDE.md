@@ -63,7 +63,6 @@ Phase 2 (`sid-inthub-profile`, Next.js, live at `sid.inthub.com.au`) is the **ac
 
 - When the user says "commit and push" for this repo, target **`aidev` only**. Never push directly to `main`.
 - Never open or merge the `aidev → main` PR without explicit instruction. The deploy is intentionally manual.
-- The `.github/workflows/blank.yml` file is a no-op stub — do not modify or rely on it.
 
 ---
 
