@@ -1,0 +1,19 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(bundle install)",
+      "Bash(bundle install --path vendor/bundle)",
+      "Bash(bundle exec jekyll build)",
+      "Bash(bundle exec jekyll build --watch)",
+      "Bash(bundle exec jekyll serve)",
+      "Bash(bundle exec jekyll serve --livereload)",
+      "Bash(bundle exec jekyll clean)",
+      "Bash(bundle update)",
+      "Bash(bundle update github-pages)",
+      "Bash(bundle outdated)",
+      "Bash(ruby --version)",
+      "Bash(bundler --version)",
+      "Bash(jekyll --version)"
+    ]
+  }
+}

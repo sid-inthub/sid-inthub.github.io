@@ -6,7 +6,16 @@ _site/
 # Ruby
 .bundle/
 vendor/
-# MacOS
-.DS_Store
-local_only/
-docs-local/
+#local_only/
+#docs-local/
+
+# Operating System Ignores
+*.DS_Store
+*Thumbs.db
+
+# Editor / tooling
+.ruby-lsp/
+.vscode/
+
+# Claude Code — user-specific overrides (CLAUDE.md and settings.json ARE tracked)
+.claude/settings.local.json
