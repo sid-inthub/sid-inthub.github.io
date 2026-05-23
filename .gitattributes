@@ -1,0 +1,24 @@
+# Normalize line endings to LF on commit — Mac + Windows sync safety.
+# Without this, Windows checkouts convert to CRLF on save, producing
+# whole-file diffs that look like "every file changed" on next pull.
+* text=auto eol=lf
+
+# Explicit text — guarantees normalization even if auto-detection misses
+*.md       text eol=lf
+*.json     text eol=lf
+*.jsonl    text eol=lf
+*.sh       text eol=lf
+*.zsh      text eol=lf
+*.yaml     text eol=lf
+*.yml      text eol=lf
+*.toml     text eol=lf
+
+# Binary — don't diff, don't normalize
+*.png   binary
+*.jpg   binary
+*.jpeg  binary
+*.gif   binary
+*.ico   binary
+*.webp  binary
+*.pdf   binary
+*.zip   binary
