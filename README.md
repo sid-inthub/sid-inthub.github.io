@@ -1,11 +1,11 @@
 # sid-inthub.github.io — Phase 1 portfolio (maintenance)
 
-Personal portfolio site for **Siddharth Shanmugam** — Solution Architect & AI-Leveraged Product Builder, founder of CliqMenu (INTHUB).
+Personal portfolio site for **Siddharth Shanmugam** — Solution Architect & AI-Leveraged Product Builder, founder of CliqMenu and CliqHours (INTHUB).
 
 Built with **Jekyll** and deployed via **GitHub Pages**.
 
 - **Live:** https://sid-inthub.github.io/
-- **Status:** Phase 1 — maintenance only. The active personal site is **Phase 2**, [`sid-inthub-profile`](https://github.com/INTHUB/sid-inthub-profile) (Next.js 16), live at [sid.inthub.com.au](https://sid.inthub.com.au) since 2026-05-09.
+- **Status:** Phase 1 — maintenance only. Decided 2026-09-26: keep and refresh (content refreshes allowed; still no redesign). The active personal site is **Phase 2**, [`sid-inthub-profile`](https://github.com/INTHUB/sid-inthub-profile) (Next.js 16), live at [sid.inthub.com.au](https://sid.inthub.com.au) since 2026-05-09.
 
 For system design, see [`ARCHITECTURE.md`](ARCHITECTURE.md). For Claude Code working agreements, see [`.claude/CLAUDE.md`](.claude/CLAUDE.md).
 

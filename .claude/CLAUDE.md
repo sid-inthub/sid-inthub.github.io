@@ -10,7 +10,7 @@ Phase 2 (`sid-inthub-profile`, Next.js, live at `sid.inthub.com.au`) is the **ac
 
 - **Maintenance only.** No redesigns, no theme migrations, no new sections without explicit ask.
 - **Confirm scope before editing.** Most "update my profile" / "improve the site" requests should land in Phase 2 (`/Users/sid/WS/IntHub/inthub/sid-inthub-profile`), not here. Ask if the user's intent is ambiguous.
-- **Open question (do not act on unprompted):** deprecate this repo vs 301-redirect to `sid.inthub.com.au`. No decision yet.
+- **Decided 2026-09-26: keep and refresh** (content refreshes allowed; still no redesign). This closes the earlier deprecate-vs-301-redirect question — the site stays live and its copy is kept accurate. No CSS/JS/theme/layout changes; keep the existing HTML structure and class names.
 
 ---
 
@@ -63,7 +63,6 @@ Phase 2 (`sid-inthub-profile`, Next.js, live at `sid.inthub.com.au`) is the **ac
 
 - When the user says "commit and push" for this repo, target **`aidev` only**. Never push directly to `main`.
 - Never open or merge the `aidev → main` PR without explicit instruction. The deploy is intentionally manual.
-- The `.github/workflows/blank.yml` file is a no-op stub — do not modify or rely on it.
 
 ---
 
@@ -89,7 +88,7 @@ bundle exec jekyll build          # one-shot build into _site/
 - Don't add AWS / Terraform / S3 / CloudFront integration. Phase 1 stays on GitHub Pages.
 - Don't add tests or lint config "just because". There's no value here.
 - Don't restructure the segmented-tab UI or theme toggle without an explicit ask — they work and are wired across CSS + JS + HTML in a way that's easy to break.
-- Don't propose porting Phase 2 features back into this repo. Phase 1 freezes; Phase 2 evolves.
+- Don't propose porting Phase 2 features back into this repo. Phase 1 gets content refreshes only; Phase 2 evolves.
 
 ---
 

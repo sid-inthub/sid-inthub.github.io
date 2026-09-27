@@ -52,7 +52,7 @@ flowchart TB
 [`index.md`](index.md) is a thin Jekyll page with `layout: default`. It pulls in the section partials in this order:
 
 1. `section-profile` — name, headline, contact links, availability
-2. `section-projects` — three featured project cards (CliqMenu, SRG Integration, Sunsuper ICC)
+2. `section-projects` — five featured project cards (CliqMenu, CliqHours, SRG Integration, Sunsuper ICC, BHP IIB advisory)
 3. A `.tabs-wrapper` div containing a segmented-control (Skills | Certifications & Edu | Experience) and three tab panels
 
 The tab structure exists in the HTML; behavior is layered on by `main.js`.
@@ -133,7 +133,7 @@ flowchart TB
   class P2 active;
 ```
 
-- Phase 1 (this repo) is **frozen** in maintenance.
+- Phase 1 (this repo) stays in **maintenance mode** — content refreshes allowed, no redesign.
 - Phase 2 is the place for new profile work.
 - The INTHUB supporting repos (`inthub-infra`, `inthub-serverless`, `website-inthub`) do not interact with this site — GitHub Pages handles everything here.
 
@@ -144,4 +144,4 @@ flowchart TB
 - **Stay on `pages-themes/minimal`.** The local CSS assumes its DOM. Replacing the theme would force a full visual rewrite for no gain.
 - **No build step beyond Jekyll.** Adding Tailwind, esbuild, or a JS bundler is explicitly out of scope. Phase 2 is the place for modern tooling.
 - **Manual PR-based deploy.** No `auto-promote-pr.yml` like other INTHUB repos — the manual gate is deliberate so a stray `aidev` commit can't accidentally go live.
-- **Open: deprecate vs 301-redirect to Phase 2.** Undecided. Both are reversible enough that no action is taken until Sid chooses.
+- **Decided 2026-09-26: keep and refresh** (content refreshes allowed; still no redesign). This closes the earlier deprecate vs 301-redirect-to-Phase-2 question.
