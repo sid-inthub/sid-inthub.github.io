@@ -102,7 +102,7 @@ sequenceDiagram
 
 - The workflow uses GitHub's hosted runners and the GitHub-Pages-resolved gem versions — **not** the local `Gemfile.lock`. That's why version drift between local and prod is mostly harmless.
 - Deploy time is ~1–2 min after merge to `main`.
-- There is a second workflow [`.github/workflows/blank.yml`](.github/workflows/blank.yml) — a no-op "Hello world" CI stub. It runs on push/PR to `main` but produces nothing useful. Safe to leave or delete.
+- `jekyll-gh-pages.yml` is the only workflow. The old no-op `blank.yml` stub was removed on 2026-05-13 (`0673e34`).
 
 ---
 
