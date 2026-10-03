@@ -89,6 +89,7 @@ bundle exec jekyll build          # one-shot build into _site/
 - Don't add tests or lint config "just because". There's no value here.
 - Don't restructure the segmented-tab UI or theme toggle without an explicit ask — they work and are wired across CSS + JS + HTML in a way that's easy to break.
 - Don't propose porting Phase 2 features back into this repo. Phase 1 gets content refreshes only; Phase 2 evolves.
+- Don't put a pipe `|` in `_config.yml` or front-matter `title` / `description`. jekyll-seo-tag runs them through Markdown, kramdown reads `A | B` as a table, and the pipe vanishes from og:title and the meta description. Use `·` or a comma (fixed 2026-10-03).
 
 ---
 

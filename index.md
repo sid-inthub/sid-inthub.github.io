@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "Sid - AI-Leveraged Product Builder & AI Adoption Strategist | Solution Architect"
+title: "Sid - AI-Leveraged Product Builder & AI Adoption Strategist · Solution Architect"
 availability_status: "Open to advisory, partnerships, and architecture engagements"
 ---
 
