@@ -13,7 +13,7 @@
                 <p class="experience-tech" style="margin-top: 10px; font-style: italic; color: var(--text-muted);">
                     <strong>Stack (code delivered with AI agents):</strong> AWS Serverless (Lambda, DynamoDB, AppSync Events, EventBridge, Cognito, API
                     Gateway, S3+CloudFront), Terraform, Python, React (Vite, TypeScript), Flutter, Stripe Connect; AI
-                    orchestration (Claude Code, MCP, multi-agent)
+                    orchestration (Claude Code, MCP, multi-agent); RAG on the Claude API
                 </p>
 
                 <details class="experience-details">
@@ -37,6 +37,10 @@
                             EventBridge, with web apps on S3 + CloudFront - Terraform-managed across three
                             isolated AWS accounts (sandbox / staging / prod). The code, Terraform included, is delivered
                             with AI agents.</li>
+                        <li>Designed and shipped <strong>Ask CliqMenu</strong>, the AI help assistant in CliqMenu's
+                            owner portal: retrieval-augmented generation (RAG) over the help centre on the Claude API,
+                            with cited answers, privacy and prompt-injection guardrails, and an evaluation gate on
+                            every prompt, model or help-content change.</li>
                         <li>Established AI-orchestrated multi-agent delivery across the full product estate: AI agents
                             write most of the code, and the specs, review and the call on what ships are mine.
                             ~5,000 commits in 2026 across 30 repositories, 85%+ co-authored with Claude Code, with 140+
