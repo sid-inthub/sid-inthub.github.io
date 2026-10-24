@@ -26,9 +26,14 @@
                 <li>Context engineering &amp; agent memory (one source of truth per fact, versioned memory, session
                     logs)</li>
                 <li>Multi-agent orchestration (Claude Code, agent SDKs, MCP servers, hooks)</li>
-                <li>RAG in production: CliqMenu's AI help assistant (keyword retrieval, Claude API, cited answers, an LLM
-                    evaluation gate)</li>
-                <li>Responsible-AI: human-in-loop, PII redaction, PIA, AU Privacy Principles, GDPR-aware</li>
+                <li>RAG in production: CliqMenu's AI help assistant on three surfaces (keyword retrieval, Claude API,
+                    cited answers, follow-up memory, an LLM evaluation gate)</li>
+                <li>Document extraction and a tool-use agent in production (menu import from a PDF or photo; an
+                    incident investigator over read-only tools), each behind human review</li>
+                <li>LLM evaluation: golden sets, LLM-as-judge grading, thresholds written first, prompt changes decided
+                    by majority re-runs; a weekly feedback loop</li>
+                <li>Responsible-AI: human-in-loop, consent per AI feature, least-privilege AI roles, PII redaction, PIA,
+                    AU Privacy Principles, GDPR-aware</li>
                 <li>Prompt engineering &middot; Chain-of-Thought (applied in production)</li>
                 <li>Tools: Claude Code, Claude API, Cursor, Windsurf</li>
             </ul>

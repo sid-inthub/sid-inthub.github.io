@@ -13,7 +13,8 @@
                 <p class="experience-tech" style="margin-top: 10px; font-style: italic; color: var(--text-muted);">
                     <strong>Stack (code delivered with AI agents):</strong> AWS Serverless (Lambda, DynamoDB, AppSync Events, EventBridge, Cognito, API
                     Gateway, S3+CloudFront), Terraform, Python, React (Vite, TypeScript), Flutter, Stripe Connect; AI
-                    orchestration (Claude Code, MCP, multi-agent); RAG on the Claude API
+                    orchestration (Claude Code, MCP, multi-agent); RAG, menu import and a tool-use agent on the
+                    Claude API
                 </p>
 
                 <details class="experience-details">
@@ -32,20 +33,33 @@
                         <li>Own the <strong>roadmap</strong> for both products: one source of truth for scope,
                             status and what gates each release. Decisions are logged with their reasons, a real
                             defect outranks a date, and AI agents brief what's next from what actually shipped,
-                            split into what they can run alone and what needs me.</li>
+                            split into what they can run alone and what needs me. A board over the roadmap holds the
+                            open decisions and the session plan, reviewed weekly.</li>
                         <li>Architected CliqMenu's cloud-native serverless platform: AppSync Events + DynamoDB + Lambda +
                             EventBridge, with web apps on S3 + CloudFront - Terraform-managed across three
                             isolated AWS accounts (sandbox / staging / prod). The code, Terraform included, is delivered
                             with AI agents.</li>
-                        <li>Designed and shipped <strong>Ask CliqMenu</strong>, the AI help assistant in CliqMenu's
-                            owner portal: retrieval-augmented generation (RAG) over the help centre on the Claude API,
-                            with cited answers, privacy and prompt-injection guardrails, and an evaluation gate on
-                            every prompt, model or help-content change.</li>
+                        <li>Designed and shipped <strong>Ask CliqMenu</strong>, the AI help assistant on CliqMenu's
+                            owner portal, help site and staff app: retrieval-augmented generation (RAG) over the help
+                            centre on the Claude API, with cited answers, follow-up memory, privacy and
+                            prompt-injection guardrails, and an evaluation gate of 90+ questions on every prompt,
+                            model or help-content change.</li>
+                        <li>Shipped <strong>three more AI features behind human review</strong>: menu import from a
+                            PDF or photos into a draft the owner edits before anything is saved, an
+                            incident-investigator agent that diagnoses a support case from orders and logs through
+                            read-only tools, and AI-drafted support replies a person edits and sends. Each has its own
+                            switch per environment, spend cap, privacy notice, least-privilege role and evals with
+                            pass marks written first.</li>
+                        <li>Run the <strong>feedback loop</strong> that keeps them honest: thumbs and "what were you
+                            looking for?" on every answer, page ratings, a review page, and a weekly review that turns
+                            real questions into help fixes and test cases with personal and business details reworded
+                            out.</li>
                         <li>Established AI-orchestrated multi-agent delivery across the full product estate: AI agents
                             write most of the code, and the specs, review and the call on what ships are mine.
-                            ~5,000 commits in 2026 across 30 repositories, 85%+ co-authored with Claude Code, with 140+
-                            repository-specific agent skills, a cross-repo contracts registry, and multi-agent
-                            verification.</li>
+                            ~7,000 commits in 2026 across 30+ repositories, about 90% co-authored with Claude Code,
+                            with 140+ repository-specific agent skills, a cross-repo contracts registry, and
+                            multi-agent verification. A fresh, independent agent reviews every substantive change
+                            before I merge it.</li>
                         <li>Designed the <strong>knowledge layer</strong> that carries context across hundreds of agent
                             sessions - one source of truth per fact, version-controlled memory kept with the repo
                             it belongs to, a log at the end of every working session, and every lesson turned into a

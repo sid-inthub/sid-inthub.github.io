@@ -24,6 +24,8 @@
                     <span class="tech-tag">Stripe Connect</span>
                     <span class="tech-tag">Claude API</span>
                     <span class="tech-tag">RAG</span>
+                    <span class="tech-tag">AI Agents</span>
+                    <span class="tech-tag">LLM Evals</span>
                     <span class="tech-tag">AI Multi-Agent Orchestration</span>
                     <span class="tech-tag">MCP</span>
                 </div>
@@ -45,10 +47,17 @@
                                     Lambda + EventBridge, with web apps on S3 + CloudFront - Terraform-managed across
                                     three isolated AWS accounts (sandbox / staging / prod).
                                 </li>
-                                <li>Shipped Ask CliqMenu, the owner portal's AI help assistant: keyword (BM25) retrieval
-                                    over about 560 help-article sections, answers written by Claude through the Claude
-                                    API that must cite their sources, the closest articles when it can't answer, and a
-                                    40+ question evaluation gate graded by a stronger model.</li>
+                                <li>Shipped Ask CliqMenu, the AI help assistant on the owner portal, the help site and
+                                    the staff app: keyword (BM25) retrieval over about 560 help-article sections,
+                                    answers written by Claude through the Claude API that must cite their sources,
+                                    follow-up memory, the closest articles when it can't answer, and a 90+ question
+                                    evaluation gate graded by a stronger model.</li>
+                                <li>Shipped three more AI features behind human review: menu import from a PDF or
+                                    photos into a draft the owner edits before anything is saved, an
+                                    incident-investigator agent that diagnoses a support case from orders and logs
+                                    through read-only tools, and AI-drafted support replies a person edits and sends;
+                                    each behind its own switch per environment, a spend cap and evals with pass marks
+                                    written first.</li>
                                 <li>Shipped the Flutter staff app to the App Store and Google Play with a full release
                                     pipeline (Fastlane, staged release notes, branch-based promotion).</li>
                                 <li>Established AI-orchestrated multi-agent delivery across the product estate: AI agents write
