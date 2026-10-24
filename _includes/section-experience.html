@@ -33,8 +33,8 @@
                         <li>Own the <strong>roadmap</strong> for both products: one source of truth for scope,
                             status and what gates each release. Decisions are logged with their reasons, a real
                             defect outranks a date, and AI agents brief what's next from what actually shipped,
-                            split into what they can run alone and what needs me. A board over the roadmap holds the
-                            open decisions and the session plan, reviewed weekly.</li>
+                            split into what they can run alone and what needs me. A board over CliqMenu's roadmap holds
+                            the open decisions and the session plan, with a weekly review.</li>
                         <li>Architected CliqMenu's cloud-native serverless platform: AppSync Events + DynamoDB + Lambda +
                             EventBridge, with web apps on S3 + CloudFront - Terraform-managed across three
                             isolated AWS accounts (sandbox / staging / prod). The code, Terraform included, is delivered
@@ -48,24 +48,25 @@
                             PDF or photos into a draft the owner edits before anything is saved, an
                             incident-investigator agent that diagnoses a support case from orders and logs through
                             read-only tools, and AI-drafted support replies a person edits and sends. Each has its own
-                            switch per environment, spend cap, privacy notice, least-privilege role and evals with
-                            pass marks written first.</li>
-                        <li>Run the <strong>feedback loop</strong> that keeps them honest: thumbs and "what were you
-                            looking for?" on every answer, page ratings, a review page, and a weekly review that turns
+                            switch per environment, least-privilege role and evals with pass marks written first, under
+                            the spend cap and the privacy notice.</li>
+                        <li>Run the <strong>feedback loop</strong> that keeps Ask CliqMenu honest: thumbs on every answer,
+                            "what were you looking for?" when it can't answer, page ratings, a review page, and a weekly review that turns
                             real questions into help fixes and test cases with personal and business details reworded
                             out.</li>
                         <li>Established AI-orchestrated multi-agent delivery across the full product estate: AI agents
                             write most of the code, and the specs, review and the call on what ships are mine.
                             ~7,000 commits in 2026 across 30+ repositories, about 90% co-authored with Claude Code,
                             with 140+ repository-specific agent skills, a cross-repo contracts registry, and
-                            multi-agent verification. A fresh, independent agent reviews every substantive change
-                            before I merge it.</li>
+                            multi-agent verification. A fresh, independent agent reviews changes that touch
+                            access, money, data or privacy before they reach production. The team's tech lead has adopted
+                            the practice.</li>
                         <li>Designed the <strong>knowledge layer</strong> that carries context across hundreds of agent
                             sessions - one source of truth per fact, version-controlled memory kept with the repo
                             it belongs to, a log at the end of every working session, and every lesson turned into a
                             rule.</li>
                         <li>Established <strong>human-in-loop governance</strong> for AI delivery - a human merge
-                            gate on every promotion; agents never deploy.</li>
+                            gate on every production promotion; agents never deploy to production.</li>
                         <li>Shipped the Flutter staff app to the App Store and Google Play with a Fastlane-based release
                             pipeline and staged release notes.</li>
                         <li>Defined product vision and go-to-market strategy; led pilot prep and stakeholder
