@@ -24,17 +24,23 @@
                             SaaS for food trucks and small restaurants.
                             Invite-only pilot in New Zealand; the staff app is live on the App Store and Google Play.</li>
                         <li>Built <strong>CliqHours</strong> - a multi-tenant timesheet SaaS for companies that
-                            engage contractors, with enforced tenant isolation, 12 architecture decision records and
+                            engage contractors, with enforced tenant isolation, 19 architecture decision records and
                             1,400+ automated tests. Its first version went from first line of code to production in
                             under two days. Invite-only early access.</li>
-                        <li>Designed the <strong>product and UX hands-on</strong>: field research with a food-truck operator
-                            in New Zealand, then a UI/UX redesign of all five CliqMenu modules, starting from the
-                            customer, staff and owner pain points seen first-hand.</li>
+                        <li><strong>Discovery from the work, not the spec</strong>: field research with a food-truck operator
+                            in New Zealand and the whole solution reviewed end to end with a food-truck and restaurant owner, then a
+                            UI/UX redesign of all five CliqMenu modules around the customer, staff and owner pain points seen
+                            first-hand. In CliqHours, two real contractor invoices turned an attendance tool into timesheets;
+                            attendance was deferred and invoicing cut from the first version.</li>
                         <li>Own the <strong>roadmap</strong> for both products: one source of truth for scope,
                             status and what gates each release. Decisions are logged with their reasons, a real
                             defect outranks a date, and AI agents brief what's next from what actually shipped,
                             split into what they can run alone and what needs me. A board over CliqMenu's roadmap holds
                             the open decisions and the session plan, with a weekly review.</li>
+                        <li><strong>Architecture chosen for the need</strong>, with the reason written down: prices
+                            computed only on the server, so no client sets a price; Stripe Connect set up as a software platform, so
+                            each merchant owns its payment relationship; CliqHours tenant-aware from day one, so going multi-tenant
+                            was a feature, not a rewrite.</li>
                         <li>Architected CliqMenu's cloud-native serverless platform: AppSync Events + DynamoDB + Lambda +
                             EventBridge, with web apps on S3 + CloudFront - Terraform-managed across three
                             isolated AWS accounts (sandbox / staging / prod). The code, Terraform included, is delivered

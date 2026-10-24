@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "Sid - AI-Leveraged Product Builder & AI Adoption Strategist · Solution Architect"
+title: "Sid - Solution Architect & Product Owner · AI-Leveraged Product Builder"
 availability_status: "Open to product, AI & architecture roles, funded product builds, advisory and partnerships · based in Chennai; open to Melbourne and Brisbane with full work rights, and the US (E-3 eligible)"
 ---
 
