@@ -11,6 +11,7 @@ Phase 2 (`sid-inthub-profile`, Next.js, live at `sid.inthub.com.au`) is the **ac
 - **Maintenance only.** No redesigns, no theme migrations, no new sections without explicit ask.
 - **Confirm scope before editing.** Most "update my profile" / "improve the site" requests should land in Phase 2 (`/Users/sid/WS/IntHub/inthub/sid-inthub-profile`), not here. Ask if the user's intent is ambiguous.
 - **Decided 2026-09-26: keep and refresh** (content refreshes allowed; still no redesign). This closes the earlier deprecate-vs-301-redirect question — the site stays live and its copy is kept accurate. No CSS/JS/theme/layout changes; keep the existing HTML structure and class names.
+- **2026-11-18, on Sid's explicit ask** (resume overhaul, decision-sheet row 10 in sid-inthub-profile `docs-local/2026-11-resume-overhaul/`): the page was re-skinned to design direction A through local CSS (`assets/css/main.css`) and its copy refreshed. Source Sans 3 replaced Poppins and Open Sans in one font request; Font Awesome is gone (the toggle's label and the contact row are CSS only); the photo is hidden by one CSS rule and still in the HTML. The structure, class names, tabs, toggle behaviour and remote theme did not change. **The standing rule from here is the same as before: content refreshes only, no further redesign without an explicit ask.** The page must stay in step with sid.inthub.com.au (same headline, title strings and numbers): the shared wording is sid-inthub-profile `docs-local/2026-11-resume-overhaul/05-canonical-copy.md`.
 
 ---
 
@@ -30,7 +31,7 @@ Phase 2 (`sid-inthub-profile`, Next.js, live at `sid.inthub.com.au`) is the **ac
 - `index.md` — single-page shell using `_layouts/default.html`. Includes 5 section partials and inlines a tab/segmented-control wrapper.
 - `_includes/` — `head.html`, `header.html`, and the 5 section partials: `section-profile.html`, `section-projects.html`, `section-skills.html`, `section-certifications.html`, `section-experience.html`.
 - `_layouts/default.html` — outer chrome (head, header, main container, JS bundle).
-- `assets/css/main.css` (primary, ~954 lines) and `assets/css/styles.css` (secondary, ~420 lines) — custom design system overriding the minimal theme.
+- `assets/css/main.css` (~770 lines, the only stylesheet a page loads: design direction A since 2026-11-18) and `assets/css/styles.css` (legacy, ~420 lines, linked by no page).
 - `assets/js/main.js` — mobile nav toggle, dark/light theme toggle (persisted to `localStorage` with `prefers-color-scheme` fallback), segmented-tab switching, hash-link → tab routing.
 - `assets/images/` — profile photos.
 - `_data/`, `_themes/` — currently empty. Reserved.
@@ -47,7 +48,7 @@ Phase 2 (`sid-inthub-profile`, Next.js, live at `sid.inthub.com.au`) is the **ac
 | Experience timeline                       | `_includes/section-experience.html`                               |
 | Site title / SEO description              | `_config.yml`                                                     |
 | Header nav, logo text, theme toggle button | `_includes/header.html`                                          |
-| Colors, spacing, layout                   | `assets/css/main.css` (primary), `assets/css/styles.css` (legacy) |
+| Colors, spacing, layout                   | `assets/css/main.css` (`styles.css` is legacy and not loaded)     |
 | Tab/theme/nav behavior                    | `assets/js/main.js`                                               |
 
 ---
