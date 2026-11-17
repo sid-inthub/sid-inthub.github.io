@@ -1,6 +1,6 @@
 # sid-inthub.github.io — Phase 1 portfolio (maintenance)
 
-Personal portfolio site for **Siddharth Shanmugam** — Solution Architect & AI-Leveraged Product Builder, founder of CliqMenu and CliqHours (INTHUB).
+Personal portfolio site for **Siddharth Shanmugam**, Solution Architect & Product Owner, who built CliqMenu and CliqHours at INTHUB.
 
 Built with **Jekyll** and deployed via **GitHub Pages**.
 
