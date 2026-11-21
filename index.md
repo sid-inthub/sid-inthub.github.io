@@ -1,7 +1,7 @@
 ---
 layout: default
 title: "Siddharth Shanmugam - Solution Architect & Product Owner · AI products, built end to end"
-availability_status: "Open to product, AI & architecture roles, funded product builds, advisory and partnerships · based in Melbourne, Australia · full work rights in Australia, New Zealand and India · open to the US (E-3 eligible)"
+availability_status: "Open to architecture, AI & product roles, funded product builds, advisory and partnerships · based in Melbourne, Australia · full work rights in Australia, New Zealand and India · open to the US (E-3 eligible)"
 ---
 
 {% include section-profile.html %}

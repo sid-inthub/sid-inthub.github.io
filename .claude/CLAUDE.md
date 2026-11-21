@@ -13,6 +13,8 @@ Phase 2 (`sid-inthub-profile`, Next.js, live at `sid.inthub.com.au`) is the **ac
 - **Decided 2026-09-26: keep and refresh** (content refreshes allowed; still no redesign). This closes the earlier deprecate-vs-301-redirect question — the site stays live and its copy is kept accurate. No CSS/JS/theme/layout changes; keep the existing HTML structure and class names.
 - **2026-11-18, on Sid's explicit ask** (resume overhaul, decision-sheet row 10 in sid-inthub-profile `docs-local/2026-11-resume-overhaul/`): the page was re-skinned to design direction A through local CSS (`assets/css/main.css`) and its copy refreshed. Source Sans 3 replaced Poppins and Open Sans in one font request; Font Awesome is gone (the toggle's label and the contact row are CSS only); the photo is hidden by one CSS rule and still in the HTML. The structure, class names, tabs, toggle behaviour and remote theme did not change. **The standing rule from here is the same as before: content refreshes only, no further redesign without an explicit ask.** The page must stay in step with sid.inthub.com.au (same headline, title strings and numbers): the shared wording is sid-inthub-profile `docs-local/2026-11-resume-overhaul/05-canonical-copy.md`.
 
+- **2026-11-21, on Sid's explicit ask** ("Do All as recommended", row 6 of the recommendations in sid-inthub-profile `docs-local/2026-11-resume-overhaul/11-skills-table-gates.md`): the Skills tab opens with a six-row skills table (Area, Tools and methods, Proof) and the long list is folded under "All skills" (`details.experience-details.skills-all`), unchanged. The table's rows are the same as sid.inthub.com.au's (`05-canonical-copy.md` section 4a): change both sites together. The availability line leads with architecture. **The standing rule is unchanged: content refreshes only, no further redesign without an explicit ask.**
+
 ---
 
 ## Stack
@@ -43,7 +45,7 @@ Phase 2 (`sid-inthub-profile`, Next.js, live at `sid.inthub.com.au`) is the **ac
 | ----------------------------------------- | ----------------------------------------------------------------- |
 | Profile name / headline / bio / contacts  | `_includes/section-profile.html`                                  |
 | Projects card content                     | `_includes/section-projects.html`                                 |
-| Skills section                            | `_includes/section-skills.html`                                   |
+| Skills table and the folded "All skills" list | `_includes/section-skills.html`                               |
 | Certifications & education                | `_includes/section-certifications.html`                           |
 | Experience timeline                       | `_includes/section-experience.html`                               |
 | Site title / SEO description              | `_config.yml`                                                     |
