@@ -1,5 +1,50 @@
 <section class="section" id="skills">
     <h2 class="section-title">Skills</h2>
+    <!-- The same six rows as sid.inthub.com.au (components/SkillsTable.tsx); wording: sid-inthub-profile
+         docs-local/2026-11-resume-overhaul/05-canonical-copy.md section 4a. The long list is folded below. -->
+    <table class="skills-table">
+        <thead>
+            <tr>
+                <th scope="col">Area</th>
+                <th scope="col">Tools and methods</th>
+                <th scope="col">Proof</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <th scope="row">Integration and APIs</th>
+                <td class="skills-tools">MuleSoft Anypoint · IBM Integration Bus, ACE, MQ, API Connect and DataPower · Solace · Boomi · OpenAPI and AsyncAPI contracts</td>
+                <td>Sunsuper's 12-year legacy integration stack replaced with IBM Integration Bus and MQ, in stages over about a year</td>
+            </tr>
+            <tr>
+                <th scope="row">Event-driven architecture</th>
+                <td class="skills-tools">Publish/subscribe messaging · Solace · AsyncAPI contracts</td>
+                <td>75% fewer point-to-point integrations across 15+ systems at Super Retail Group, on publish/subscribe messaging</td>
+            </tr>
+            <tr>
+                <th scope="row">Solution architecture</th>
+                <td class="skills-tools">Target-state design · HLD/LLD · Architecture decision records · TOGAF 9 Foundation</td>
+                <td>Solace chosen as Super Retail Group's event platform after my benchmark against Kafka, AWS EventBridge and Azure Event Grid</td>
+            </tr>
+            <tr>
+                <th scope="row">Cloud, delivered with AI agents</th>
+                <td class="skills-tools">AWS Lambda · DynamoDB · AppSync Events · EventBridge · Terraform · GitHub Actions</td>
+                <td>40+ Lambda functions across CliqMenu and CliqHours; separate AWS accounts for sandbox, staging and production</td>
+            </tr>
+            <tr>
+                <th scope="row">Generative AI</th>
+                <td class="skills-tools">Claude API · Retrieval-Augmented Generation (RAG) · Agentic workflows · LLM evaluation · Human-in-the-loop controls</td>
+                <td>AI features in production on CliqMenu; the help assistant answers with citations behind an evaluation gate of 90+ questions</td>
+            </tr>
+            <tr>
+                <th scope="row">Product ownership</th>
+                <td class="skills-tools">Discovery and field research · Roadmap and release gates · Pricing · Specs and acceptance criteria</td>
+                <td>All five CliqMenu modules redesigned after field research with a food-truck operator in New Zealand</td>
+            </tr>
+        </tbody>
+    </table>
+    <details class="experience-details skills-all">
+    <summary>All skills</summary>
     <div class="skills-container">
         <div class="skill-category">
             <h3 class="category-title"><i class="fas fa-compass" style="margin-right: 8px; font-size: 0.9em;"></i>
@@ -130,4 +175,5 @@
     </div>
     <p style="text-align:center;"><em><span class="limited-exposure"><strong>#</strong> = Limited Exposure</span></em>
     </p>
+    </details>
 </section>

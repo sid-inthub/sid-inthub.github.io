@@ -568,6 +568,96 @@ span.contact-item {
 }
 
 /*
+* SKILLS TABLE: area, tools and methods, proof. The same six rows as sid.inthub.com.au;
+* the long list sits folded under it (details.skills-all). Under 768px each row stacks.
+*/
+.skills-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 4px 0 6px;
+}
+
+.skills-table th,
+.skills-table td {
+  text-align: left;
+  vertical-align: top;
+  padding: 12px 24px 12px 0;
+  border-bottom: 1px solid var(--border-color);
+}
+
+.skills-table thead th {
+  font-size: 0.86rem;
+  font-weight: 600;
+  color: var(--text-muted);
+  padding-top: 0;
+  padding-bottom: 8px;
+}
+
+.skills-table tbody th {
+  font-weight: 700;
+  width: 24%;
+}
+
+.skills-table .skills-tools {
+  color: var(--text-muted);
+  width: 38%;
+}
+
+.skills-table tbody td:last-child,
+.skills-table thead th:last-child {
+  padding-right: 0;
+}
+
+details.skills-all {
+  margin-top: 18px;
+  border-top: 0;
+  padding-top: 0;
+}
+
+details.skills-all[open] summary {
+  margin-bottom: 18px;
+}
+
+@media (max-width: 768px) {
+  .skills-table thead {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+    clip-path: inset(50%);
+  }
+
+  .skills-table,
+  .skills-table tbody,
+  .skills-table tr,
+  .skills-table tbody th,
+  .skills-table td,
+  .skills-table .skills-tools {
+    display: block;
+    width: auto;
+  }
+
+  .skills-table tr {
+    padding: 12px 0;
+    border-bottom: 1px solid var(--border-color);
+  }
+
+  .skills-table tbody tr:first-child {
+    border-top: 1px solid var(--border-color);
+  }
+
+  .skills-table tbody th,
+  .skills-table td {
+    padding: 0;
+    border: 0;
+  }
+
+  .skills-table td {
+    margin-top: 3px;
+  }
+}
+
+/*
 * EXPANDABLE DETAILS
 */
 details.experience-details {
